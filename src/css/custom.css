@@ -4,8 +4,45 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Font declarations */
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/FZ Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/FZ Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/FZ Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/FZ Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/FZ Poppins-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Apply Poppins as the default font */
 :root {
+  --ifm-font-family-base: 'Poppins', system-ui, -apple-system, sans-serif;
   --ifm-color-primary: #01c7fe;
   --ifm-color-primary-dark: #006eff;
   --ifm-color-primary-darker: #277148;
@@ -29,4 +66,8 @@
   --ifm-navbar-background-color: #071122;
   --ifm-color-foreground: #fff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__logo {
+  margin-right: 1rem;
 }
