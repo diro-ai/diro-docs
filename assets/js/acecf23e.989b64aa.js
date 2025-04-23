@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiro_docs=self.webpackChunkdiro_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/diro-docs/blog","blogTitle":"Blog","authorsListPath":"/diro-docs/blog/authors"}')}}]);
