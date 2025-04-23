@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://github.com',
+  url: 'https://diro-ai.github.io',
   baseUrl: '/diro-docs/',
 
   // GitHub pages deployment config.
