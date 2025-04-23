@@ -8,6 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+    contents: write  # This is crucial for pushing to gh-pages
+    pages: write     # Needed for GitHub Pages
+    id-token: read   # Needed for GitHub Pages
     steps:
       - uses: actions/checkout@v4
 
