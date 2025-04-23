@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiro_docs=self.webpackChunkdiro_docs||[]).push([[5210],{6801:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/diro-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
