@@ -88,12 +88,12 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Hướng dẫn',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://diro.ai',
+          label: 'Đăng nhập',
           position: 'right',
         },
       ],
@@ -105,34 +105,46 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Hướng dẫn',
               to: '/docs/intro',
+            },
+            {
+              label: 'Cách tạo chatbot',
+              to: 'https://diro.ai/how-to-create-chatbot',
+            },
+            {
+              label: 'Điều khoản sử dụng',
+              to: 'https://diro.ai/terms-of-use',
+            },
+            {
+              label: 'Chính sách bảo mật',
+              to: 'https://diro.ai/privacy-policy',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Cộng đồng',
           items: [
             {
               label: 'Facebook',
               href: 'https://www.facebook.com/diro.ai.chatbot',
             },
             {
-              label: 'Zalo',
-              href: 'https://zalo.me/0333263400',
+              label: 'GitHub',
+              href: 'https://github.com/diro-ai',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Liên hệ',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Email',
+              href: 'mailto:cskh@diro.ai',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/diro-ai',
+              label: 'Zalo',
+              href: 'https://zalo.me/0333263400',
             },
           ],
         },
