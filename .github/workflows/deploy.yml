@@ -2,16 +2,16 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # Runs on push to main branch
-  workflow_dispatch: # Allows manual trigger
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # This is crucial for pushing to gh-pages
-      pages: write     # Needed for GitHub Pages
-      id-token: read   # Needed for GitHub Pages
+      contents: write
+      pages: write
+      id-token: read
     steps:
       - uses: actions/checkout@v4
 
@@ -29,9 +29,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # Auto-generated, no setup needed
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          publish_branch: gh-pages # The branch GitHub Pages uses
-          # For user/organization pages, use:
-          # publish_branch: main
-          # and set `./build` as the Pages source in repo settings
+          publish_branch: gh-pages
