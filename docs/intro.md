@@ -1,47 +1,17 @@
 ---
 sidebar_position: 1
 ---
+# GIỚI THIỆU VỀ DIRO 
+## Diro.ai là gì?
+Trang web ứng dụng khoa học hiện đại,  thông minh sáng tạo cộng thêm tính tự động làm việc liên tục 24/7 chỉ cần ra mệnh lệnh Ai sẽ đóng vai trò là một nhân viên tư vấn, chăm sóc khách hàng trên nền tảng như Facebook đem đến thành công vượt trội trong kinh doanh online, tỉ lệ chốt đơn tăng, quản lý fanpage chuyên nghiệp tiết kiệm thời gian và chi phí,... Đây là một tinh hoa của công nghệ nên được ứng dụng vào kinh doanh online, một lựa chọn hoàn hảo của doanh nghiệp.
+Các tính năng của Diro.ai
 
-# Tutorial Intro
+### 1.Dễ dàng quản lý mọi Fanpage trên cùng một nền tảng
+**Bạn kinh doanh trên Facebook: bạn sử dụng nhiều Fanpage với nhiều mục đích khác nhau:**
+- Fanpage sản phẩm/dịch vụ chính, 
+- Fanpage theo nhóm khách hàng mục tiêu, 
+- Fanpage cho từng dòng sản phẩm, 
+- Fanpage theo khu vực địa lý 
+- Fanpage mini chạy chiến dịch ngắn hạn
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+![GT](GT.jpg)
