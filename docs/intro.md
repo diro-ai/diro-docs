@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # GIỚI THIỆU VỀ DIRO 
 ## Diro.ai là gì?
-Trang web ứng dụng khoa học hiện đại,  thông minh sáng tạo cộng thêm tính tự động làm việc liên tục 24/7 chỉ cần ra mệnh lệnh Ai sẽ đóng vai trò là một nhân viên tư vấn, chăm sóc khách hàng trên nền tảng như Facebook đem đến thành công vượt trội trong kinh doanh online, tỉ lệ chốt đơn tăng, quản lý fanpage chuyên nghiệp tiết kiệm thời gian và chi phí,... Đây là một tinh hoa của công nghệ nên được ứng dụng vào kinh doanh online, một lựa chọn hoàn hảo của doanh nghiệp.
+Trang web ứng dụng khoa học hiện đại,  thông minh sáng tạo cộng thêm tính tự động làm việc liên tục 24/7 chỉ cần ra mệnh lệnh AI sẽ đóng vai trò là một nhân viên tư vấn, chăm sóc khách hàng trên nền tảng như Facebook đem đến thành công vượt trội trong kinh doanh online, tỉ lệ chốt đơn tăng, quản lý fanpage chuyên nghiệp tiết kiệm thời gian và chi phí,... Đây là một tinh hoa của công nghệ nên được ứng dụng vào kinh doanh online, một lựa chọn hoàn hảo của doanh nghiệp.
 Các tính năng của Diro.ai
 
 ### 1.Dễ dàng quản lý mọi Fanpage trên cùng một nền tảng
@@ -28,7 +28,7 @@ Các tính năng của Diro.ai
 - Hệ thống chatbot tự động trả lời tin nhắn của khách hàng mọi lúc, mọi nơi, kể cả nửa đêm hay ngày lễ.
 - Bot không chỉ trả lời cứng nhắc, mà còn phân loại câu hỏi (giá, thông tin sản phẩm, đổi trả, giao hàng…) rồi phản hồi đúng nội dung khách cần, giống như một chuyên gia CSKH chuyên nghiệp.
 - Nếu câu hỏi phức tạp, bot sẽ chuyển cho nhân viên thật xử lý, đảm bảo khách luôn được hỗ trợ nhanh chóng.
-### 4. Ai cũng dễ dàng sử dụng!
+### 4. AI cũng dễ dàng sử dụng!
 - Dù bạn là chủ shop nhỏ hay doanh nghiệp lớn, chỉ cần vài phút kết nối Fanpage là đã quản lý được hết bình luận, tin nhắn, đơn hàng trên một giao diện duy nhất.
 - Không cần biết kỹ thuật, Diro.ai tự động làm mọi thứ cho bạn: ẩn bình luận tiêu cực, trả lời khách hàng 24/7, chốt đơn nhanh hơn.
 

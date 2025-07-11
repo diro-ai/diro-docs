@@ -14,4 +14,4 @@ sidebar_position: 1
 - Chọn Fanpage bạn muốn Diro quản lý
 Sau đó chọn **Tiếp tục** chọn **Lưu**
 ![b4](b4.jpg)
-Tài khoản Facebook của bạn đã được liên kết với Ai.
+Tài khoản Facebook của bạn đã được liên kết với AI.

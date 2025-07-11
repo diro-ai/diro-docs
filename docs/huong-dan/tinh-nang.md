@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Hai tính năng thông minh của Ai khi quản lý Fanpage
+# Hai tính năng thông minh của AI khi quản lý Fanpage
 Trong phần **Thiết lập chung**, bạn có thế xem và chỉnh sửa thông tin cho phù hợp.
 ![b7](b7.jpg)
  Quan trọng là hãy mở hai tính năng:

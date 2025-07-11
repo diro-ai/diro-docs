@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 ---
-#  Chat thử với Ai 
+#  Chat thử với AI 
 - Kiểm tra đơn giá, hình ảnh,giọng điệu, từ ngữ của ai khi nói chuyện với khách hàng, 
 - Ứng xử khi khách hàng hỏi thông tin ngoài phạm vi trong phần mô tả sản phẩm, 
 ![b14](b14.jpg)

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 ---
-# Ra lệnh cho Ai
+# Ra lệnh cho AI
 - Với hệ thống này, bạn có thể dễ dàng ra lệnh cho AI, xây dựng những mệnh lệnh phù hợp với tiêu chí và sản phẩm kinh doanh của mình. AI sẽ được hướng dẫn cụ thể cách sử dụng từ ngữ, giọng điệu khi tư vấn, cũng như cách thuyết phục cả những khách hàng khó tính nhất. Bên cạnh đó, bạn còn có thể áp dụng các câu lệnh nâng cao để AI chủ động tư vấn, khéo léo gợi ý khách hàng để lại số điện thoại và chăm sóc họ chuyên nghiệp hơn. Tất cả các mệnh lệnh quan trọng đều dễ dàng chỉnh sửa, bổ sung, giúp bạn linh hoạt kiểm soát và tối ưu hiệu quả tương tác khách hàng.
 ![b16](b16.jpg)
 ## 1. Mệnh lệnh phù hợp tiêu chí & sản phẩm
