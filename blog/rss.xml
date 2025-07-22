@@ -4,25 +4,10 @@
         <title>Diro docs Blog</title>
         <link>https://docs.diro.ai/blog</link>
         <description>Diro docs Blog</description>
-        <lastBuildDate>Sun, 14 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>vi</language>
-        <item>
-            <title><![CDATA[Test]]></title>
-            <link>https://docs.diro.ai/blog/test</link>
-            <guid>https://docs.diro.ai/blog/test</guid>
-            <pubDate>Sun, 14 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Diro là phần mềm nằm trong hệ sinh thái Diro, hỗ trợ quản lý tin nhắn, bình luận, bán hàng,... đa kênh. (Facebook, Zalo, Instagram, Shopee, Lazada, TikTok, WhatsApp, Line, Tokopedia,...).]]></description>
-            <content:encoded><![CDATA[<p>Diro là phần mềm nằm trong hệ sinh thái Diro, hỗ trợ quản lý tin nhắn, bình luận, bán hàng,... đa kênh. (Facebook, Zalo, Instagram, Shopee, Lazada, TikTok, WhatsApp, Line, Tokopedia,...).</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="phần-mềm-diro-là-gì">Phần mềm Diro là gì?<a href="https://docs.diro.ai/blog/test#ph%E1%BA%A7n-m%E1%BB%81m-diro-l%C3%A0-g%C3%AC" class="hash-link" aria-label="Đường dẫn trực tiếp đến Phần mềm Diro là gì?" title="Đường dẫn trực tiếp đến Phần mềm Diro là gì?">​</a></h2>
-<p>Diro là phần mềm quản lý hội thoại đa kênh nằm trong hệ sinh thái Diro, hỗ trợ quản lý tin nhắn, bình luận, bán hàng,...đa kênh. (Facebook, Zalo, Instagram, Shopee, Lazada, TikTok, WhatsApp, Line, Tokopedia,...).</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="các-tính-năng-của-phần-mềm-diro">Các tính năng của phần mềm Diro<a href="https://docs.diro.ai/blog/test#c%C3%A1c-t%C3%ADnh-n%C4%83ng-c%E1%BB%A7a-ph%E1%BA%A7n-m%E1%BB%81m-diro" class="hash-link" aria-label="Đường dẫn trực tiếp đến Các tính năng của phần mềm Diro" title="Đường dẫn trực tiếp đến Các tính năng của phần mềm Diro">​</a></h2>
-<p>Phần mềm Diro có các tính năng gì?</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-kết-nối-đa-dạng-nền-tảng">1. Kết nối đa dạng nền tảng<a href="https://docs.diro.ai/blog/test#1-k%E1%BA%BFt-n%E1%BB%91i-%C4%91a-d%E1%BA%A1ng-n%E1%BB%81n-t%E1%BA%A3ng" class="hash-link" aria-label="Đường dẫn trực tiếp đến 1. Kết nối đa dạng nền tảng" title="Đường dẫn trực tiếp đến 1. Kết nối đa dạng nền tảng">​</a></h3>
-<p>Bạn kinh doanh trên Facebook, Instagram, Shopee, TikTok, WhatsApp, Zalo... Diro có thể kết nối với hầu hết các nền tảng trên thị trường hiện nay, giúp bạn dễ dàng quản lý hoạt động kinh doanh xuyên suốt trên các nền tảng.</p>
-<p><img decoding="async" loading="lazy" alt="Ảnh minh hoạ" src="https://docs.diro.ai/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://docs.diro.ai/blog/welcome</link>
