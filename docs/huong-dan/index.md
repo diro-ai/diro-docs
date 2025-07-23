@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# HƯỚNG DẪN SỬ DỤNG DIRO 
+# Hướng dẫn sử dụng Diro
 # Kích hoạt bằng tài khoản Facebook 
 - Bạn cần có các trang Facebook, có sẵn những Fanpage ,... mà bạn muốn kết nối với Diro . Tốt nhất bạn là quản trị viên của các trang này để quá trình kết nối diễn ra hiệu quả.
 - Truy cập vào: https://diro.ai/ 
