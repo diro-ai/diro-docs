@@ -18,3 +18,5 @@ Diro AI là một AI agent có khả năng tư vấn cho khách hàng, thuyết 
 - Bạn có thể quản lý tin nhắn mà khách hàng gửi tới cho page của bạn, bạn cũng có thể nhắn tin trả lời trực tiếp tới khách hàng thông qua hệ thống của Diro trong trường hợp bạn tắt Diro AI cho cuộc hội thoại đó.
 3. Quản lý đơn hàng
 - Quản lý danh sách đơn hàng được tạo ra
+
+Xem thêm chi tiết ở Các Chức Năng Chính Của Diro

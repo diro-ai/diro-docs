@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 # Hướng dẫn sử dụng Diro
 # Kích hoạt bằng tài khoản Facebook 
