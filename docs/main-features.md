@@ -21,9 +21,10 @@ Khi khách hàng im lặng, diro sẽ tự động nhắn tin cho khách hàng s
 ## 2. Quản lý tin nhắn trên Facebook và quản lý bình luận trên facebook
 ### 2.1 Quản lý tin nhắn
 ### 2.2 Phân loại trạng thái cuộc hội thoại
-### 2.3 Tự động lên đơn
-### 2.4 Tự động ẩn bình luận
-### 2.5 Tự động nhắn tin khi khách hàng bình luận vào bài viết
+### 2.3 Phản hồi khách hàng trực tiếp từ Diro dashboard
+### 2.4 Tự động lên đơn
+### 2.5 Tự động ẩn bình luận
+### 2.6 Tự động nhắn tin khi khách hàng bình luận vào bài viết
 
 ## 3. Quản lý đơn hàng
 ### 3.1 Quản lý danh sách đơn hàng
