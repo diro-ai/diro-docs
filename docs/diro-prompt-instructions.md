@@ -7,7 +7,6 @@ sidebar_position: 3
 ### Nguyên tắc chung khi viết lệnh cho AI
 1. Rõ ràng và cụ thể: Viết lệnh càng rõ thì kết quả càng chính xác.
 2. Có ví dụ cho những trường hợp phức tạp. Nếu AI cần phải phản hồi liên quan tới toán, thí dụ báo giá cho khách hàng, thì lệnh cho AI nên có các ví dụ cụ thể về cách tính giá.
-3. Có ngữ cảnh: Cung cấp thêm thông tin cho AI nếu cần
 
 ### 1. Rõ ràng và cụ thể: Viết lệnh càng rõ thì kết quả càng chính xác.
 #### Ví dụ 1:
@@ -41,5 +40,3 @@ sidebar_position: 3
 > - Khách hàng mua 5 chai dầu gió xanh và 2 lốc dầu gió vàng. Thì giá là 90000x5 = 450k cho 5 chai dầu gió xanh và 120000x2 = 2.400k cho 2 lốc 12 chai dầu gió vàng. Tổng giá trị đơn hàng là 450k + 2.400k = 2.850k
 > - Khách hàng mua sỉ 3 lốc dầu gió xanh và 2 chai dầu gió xanh lẻ. Thì giá là 3 x 900k = 2.700k cho 3 lốc dầu gió xanh và 2x90000 = 180k cho 2 chai dầu gió lẻ. Tổng giá trị đơn hàng là 2.700k + 180k = 2.850k
 > - Khách hàng mua sỉ 30 chai dầu gió xanh. Lúc này, 30 chai dầu gió xanh sẽ được tính với giả của 2 lốc dầu gió xanh là 24 chai, cộng với 6 chai dầu gió xanh lẻ. Giá của 2 lốc dầu gió xanh là 2 x 900k = 1.800k, cộng với 6 chai dầu gió xanh lẻ là 6 x 90k = 540k. Tổng giá trị đơn hàng là 1.800k + 540k = 2.340k
-
-### 3. Có ngữ cảnh: Cung cấp thêm thông tin cho AI nếu cần
