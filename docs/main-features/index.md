@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 # Các chức năng chính của Diro
+**Diro AI là trợ lý bán hàng tự động ứng dụng công nghệ AI ngôn ngữ, giúp doanh nghiệp tư vấn, thuyết phục và chăm sóc khách hàng 24/7.**
+Tăng tỷ lệ chốt đơn, giảm chi phí vận hành, nâng trải nghiệm khách hàng – tất cả trong một nền tảng thông minh.
 
 ## 1. AI Agent chuyên nghiệp như người thật
 Diro AI là một AI agent có khả năng tư vấn cho khách hàng, thuyết phục khách hàng mua hàng và chăm sóc khách hàng rất hiệu quả, tăng khả năng chốt đơn thành công và tăng mức độ hài lòng của khách hàng với sản phẩm và dịch vụ của công ty bạn.

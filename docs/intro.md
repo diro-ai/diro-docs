@@ -2,8 +2,9 @@
 sidebar_position: 1
 ---
 # Giới thiệu về Diro
-## Diro.ai là gì?
-Diro AI là một AI agent có khả năng tư vấn cho khách hàng, thuyết phục khách hàng mua hàng và chăm sóc khách hàng rất hiệu quả, tăng khả năng chốt đơn thành công và tăng mức độ hài lòng của khách hàng với sản phẩm và dịch vụ của công ty bạn.
+<iframe width="700" height="394" src="https://www.youtube.com/embed/gn0y5PKFc_o?si=ucut2QwxsKyBRSsF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Diro AI là gì?
+Diro AI là một AI Agent có khả năng tư vấn cho khách hàng, thuyết phục khách hàng mua hàng và chăm sóc khách hàng rất hiệu quả, tăng khả năng chốt đơn thành công và tăng mức độ hài lòng của khách hàng với sản phẩm và dịch vụ của công ty bạn.
 
 💥 Đặc biệt, trong thời gian ưu đãi, bạn sẽ được tặng ngay 200K trong tài khoản khi đăng nhập lần đầu để trải nghiệm miễn phí!
 
