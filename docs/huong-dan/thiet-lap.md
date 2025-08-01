@@ -1,21 +1,32 @@
 ---
 sidebar_position: 2
+title: Tạo AI Agent
 ---
-# Tạo AI agent cho tài khoản fanpage
-- Đầu tiên chọn  **AI Agent** tiếp tục chọn  **Tạo AI Agent**
-![b5](b5.jpg)
-Tiếp theo hãy điền thông sau:
-![b6](b6.jpg)
+# Tạo AI Agent cho Fanpage
+👉 Sau khi đã đăng nhập, bạn có thể bắt đầu tạo AI Agent cho Fanpage của mình theo các bước sau:
 
-- Trang: Chọn Fanpage cần liên kết
-- Tên Agent: Hãy đặt tên gợi nhớ
+🔹 Bước 1: Chọn mục "AI Agent" trong giao diện chính và chọn "Tạo AI Agent"
 
-## Thông tin quan trọng:
-- **Tên cửa hàng:** AI sẽ sử dụng tên cửa hàng để trò chuyện với khách hàng 
-- **Mô tả cửa hàng:** AI sẽ sử dụng phần mô tả để giới thiệu khi trò chuyện với khách hàng
-## Hãy chọn 1 trong tiêu chí 3 của AI phù hợp mới mục đích của bạn:
-1. Số điện thoại, địa chỉ, số lượng mặt hàng: bán sản phẩm
-2. Số điện thoại: bán bất động sản, khóa học, du lịch,.. lấy sđt để tư vấn 
-3. Không lên đơn: dùng để chăm sóc khách hàng.
+![image](2.1.png)
 
-Sau khi hoàn tất thông tin nhấn vào **Tạo AI Agent**
+🔹 Bước 2: Điền thông tin cấu hình cho AI Agent
+
+1. Trang: Chọn Fanpage mà bạn muốn kết nối
+
+2. Tên Agent: Đặt tên dễ nhớ để bạn dễ quản lý (ví dụ: *KAIO - Nệm, Shop nệm...*)
+
+3. Tên cửa hàng: AI sẽ dùng tên này khi trò chuyện với khách (ví dụ: Chào chị, em đến từ **KAIO shop** ạ!)
+
+4. Mô tả cửa hàng: Dùng để AI giới thiệu về cửa hàng/sản phẩm khi cần (ví dụ: *Bên em **chuyên nệm Topper xuất Nhật, mẫu mã đang dạng ạ***)
+
+5. Bạn hãy chọn 1 trong 3 tiêu chí sau để Diro tối ưu kịch bản AI theo mục đích:
+* Bán sản phẩm: <br />
+👉 Lấy **số điện thoại, địa chỉ, số lượng mặt hàng** để lên đơn
+* Lấy thông tin từ khách hàng để tư vấn (BĐS, khóa học, du lịch...) <br />
+👉 Chỉ lấy **số điện thoại**, không cần lên đơn
+* Chăm sóc khách hàng <br />
+👉 Không lấy thông tin - chỉ dùng để hỗ trợ, trả lời, giữ kết nối khách hàng
+
+6. Bấm **"Tạo"** để hoàn tất
+
+![image](2.2.png)
