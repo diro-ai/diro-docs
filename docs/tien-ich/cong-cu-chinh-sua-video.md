@@ -31,13 +31,24 @@ Thanh chỉ số ở góc trên bên phải cho bạn biết trước tốc đ�
 
 ## 📥 Bước 1: Tải phần mềm về máy
 
-| Máy của bạn | Bấm để tải | Cách dùng |
-|---|---|---|
-| **Windows 10 / 11** | [**Tải DiroVideoEditor.exe**](https://github.com/nhatduy129/diro-video-editor/releases/latest/download/DiroVideoEditor.exe) (110 MB) | Tải xong bấm đúp là chạy — **không cần cài đặt** |
-| **macOS 14 trở lên** | [**Tải bản macOS**](https://github.com/nhatduy129/diro-video-editor/releases/latest/download/DiroVideoEditor-macos.zip) | Giải nén rồi kéo `Video Editor.app` vào thư mục **Applications** |
+👉 **[Bấm vào đây để tới trang tải](https://github.com/nhatduy129/diro-video-editor/releases/latest)**
 
-Xem tất cả các bản phát hành tại
-[trang Releases](https://github.com/nhatduy129/diro-video-editor/releases).
+Ở mục **Assets** cuối trang, chọn đúng file cho máy của bạn:
+
+| Máy của bạn | File cần tải | Sau khi tải xong |
+|---|---|---|
+| **Windows 10 / 11** | `DiroVideoEditor-1.0.0-win-x64.zip` (≈107 MB) | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
+| **macOS 14 trở lên** | `DiroVideoEditor-1.0.0-macos.zip` | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
+
+Số `1.0.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
+giữ bản nào. Bản mới hơn sẽ có số lớn hơn.
+
+:::note Cách giải nén
+**Windows**: bấm chuột phải vào file `.zip` → **Extract All…** → **Extract**.
+Nhớ giải nén ra rồi mới chạy — chạy thẳng từ trong file nén sẽ lỗi.
+
+**macOS**: bấm đúp vào file `.zip` là tự giải nén.
+:::
 
 :::warning Lần đầu mở máy có thể cảnh báo — đây là bình thường
 
@@ -52,7 +63,13 @@ Phần mềm chưa mua chứng chỉ ký số nên hệ điều hành chưa "que
 Chỉ phải làm một lần duy nhất. Các lần sau mở bình thường.
 :::
 
-:::note Vì sao file Windows nặng 110 MB?
+:::info Trong file zip bản Windows có gì
+- `DiroVideoEditor.exe` — phần mềm, bấm đúp là chạy
+- `HUONG-DAN.txt` — tóm tắt vài dòng cách mở lần đầu
+- `FFMPEG-LICENSE.txt` — giấy phép của bộ xử lý video đi kèm
+:::
+
+:::note Vì sao file Windows nặng như vậy?
 Vì phần mềm đóng gói sẵn **mọi thứ cần thiết** vào trong một file duy nhất, để
 bạn tải về là chạy được ngay mà không phải cài thêm bất cứ thứ gì. Lần chạy đầu
 tiên hơi lâu vài giây vì máy đang bung bộ xử lý video ra; những lần sau mở nhanh.
