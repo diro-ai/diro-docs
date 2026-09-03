@@ -9,7 +9,7 @@ sidebar_position: 4
 
 🔹 Bước 1 : Truy cập vào trang web: [https://diro.ai/](https://diro.ai/)
 
-🔹 Bước 2 : Nhấn vào nút **"Đăng nhập"** có logo Facebook
+🔹 Bước 2 : Nhấn vào nút **"Đăng nhập"** ở góc trên bên phải, rồi chọn đăng nhập bằng Facebook
 
 ![image](1.1.png)
 

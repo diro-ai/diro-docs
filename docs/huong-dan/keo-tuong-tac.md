@@ -2,47 +2,56 @@
 sidebar_position: 6
 title: Kéo tương tác
 ---
-# Cài đặt lệnh kéo tương tác khi khách hàng không phản hồi
-AI có thể tự động gửi lại tin nhắn hoặc gửi giảm giá để kích thích khách hàng phản hồi nếu họ không phản hồi quá lâu:
+# Tin nhắn tự động – Kéo tương tác khi khách hàng không phản hồi
 
-### 1. Hình thức gửi tin nhắn:
-🔹 Bước 1: Chọn “ra lệnh cho AI” -> Chọn “Kéo tương tác” -> Nhấn chọn biểu tượng “+”
+Khi khách hàng đọc tin rồi im lặng, bạn có thể để hệ thống tự nhắn lại nhằm kéo khách quay lại cuộc hội thoại. Tính năng này nằm trong nhóm **Tin nhắn tự động**.
 
-![image](6.1.png)
+🔹 Vào **“Ra lệnh cho AI”** → chọn tab **“Tin nhắn tự động”**
 
-🔹 Bước 2 : Nhập lệnh phản hồi
-  - Chọn hình thức "Nhắn tin"
-  - Thời gian sau khi khách hàng im lặng (ví dụ : 10 phút)
-  - Nhập mệnh lệnh tin nhắn <br />
-  *Ví dụ : “ Khách hàng không còn phản hồi tin nhắn nữa, hãy nói gì đó với khách hàng để khách hàng quay trở lại cuộc hội thoại”*
+![Danh sách tin nhắn tự động](tin-nhan-tu-dong.png)
 
-![image](6.2.png)
+Có 3 loại tin nhắn tự động, tạo bằng các nút tương ứng ở góc phải:
 
-🔹 Bước 3 : Nhấn “ Tạo” để hoàn thành
+| Loại | Gửi cho cuộc hội thoại nào |
+| --- | --- |
+| **Câu chào** | Khi khách vừa bắt đầu cuộc hội thoại |
+| **Kéo tương tác** | Khách **chưa để lại số điện thoại** |
+| **Upsell** | Khách **đã chốt đơn** (chào bán thêm) |
 
-### 2. Hình thức giảm giá:
-🔹 Bước 1: Chọn “ra lệnh cho AI” -> Chọn “Kéo tương tác” -> Nhấn chọn biểu tượng “+”
+:::info Cần nhớ
+Tin nhắn tự động được hệ thống gửi **theo đúng mẫu bạn soạn, không đi qua AI**. Vì vậy nội dung bạn nhập ở đây chính là nội dung khách nhận được, chứ không phải mệnh lệnh để AI diễn đạt lại. Tính năng này **hoàn toàn miễn phí**.
+:::
 
-🔹 Bước 2 : Nhập lệnh phản hồi
-  - Chọn hình thức “Giảm giá”
-  - Thời gian sau khi khách hàng im lặng (ví dụ : 10 phút)
-  - Nhập mức giá ưu đãi
-  - Nhấn “Tiếp tục”
+## Tạo tin nhắn kéo tương tác
 
-![image](6.3.png)
+🔹 Bước 1: Nhấn nút **“+ Kéo tương tác”**
 
-🔹 Bước 3 : Nhập mệnh lệnh tin nhắn
+🔹 Bước 2: Điền nội dung
 
-*Ví dụ : “ Hãy nói với khách hàng rằng mình có thể tặng voucher giảm giá theo sự kiện để có giá tốt nhất”*
+![Tạo tin nhắn kéo tương tác](tao-keo-tuong-tac.png)
 
-![image](6.4.png)
+- **Áp dụng cho sản phẩm**: chọn một sản phẩm cụ thể, hoặc để **“Tất cả sản phẩm”**
+- **Nội dung tin nhắn**: câu chữ khách sẽ nhận được (tối đa 4.000 ký tự) <br />
+  *Ví dụ: “Dạ anh/chị cần em tư vấn thêm gì không ạ? Bên em đang có ưu đãi cho đơn hôm nay ạ.”*
+- **Thời gian**: chọn 1 trong 2 cách
+  - **Sau khi khách hàng im lặng**: nhập số phút, ví dụ 10 phút kể từ lúc khách ngừng trả lời
+  - **Cố định**: gửi theo các khung giờ cố định trong ngày – cần chọn **ít nhất 2 khung giờ**
+- **Cách thức gửi tin nhắn**: gửi tin nhắn trước rồi hình ảnh sau, hoặc ngược lại
+- **Hình ảnh/Video đính kèm**: tối đa 15 file, ảnh ≤ 8MB, video MP4 ≤ 25MB
 
-### 3. Hình thức kết hợp tin nhắn và giảm giá:
-Hãy kết hợp linh hoạt nhiều hình thức tương tác để xây dựng một **kịch bản tương tác khách hàng liên tục.**
+🔹 Bước 3: Nhấn **“Tạo”** để hoàn thành
 
-Điều này không chỉ giúp **duy trì sự quan tâm của khách hàng**, mà còn **giảm thiểu rủi ro mất khách giữa chừng**, đặc biệt trong quá trình tư vấn – chốt đơn.
+## Kèm ưu đãi để kéo khách quay lại
 
-*Ví dụ : Sau 10 phút hãy nhắn tin cho khách hàng - Sau 20 phút hãy giảm giá - Sau 30 phút hãy nhắn tin cho khách hàng*
+Trong cùng một tin nhắn kéo tương tác, bạn có thể tick thêm:
 
-![image](6.5.png)
-**Lưu ý : Mỗi tương tác cách nhau tối thiểu 10 phút.*
+- **Thay đổi giá** → mở ô **“Mô tả về giá”**. Nội dung này sẽ **thay thế cho mô tả về giá gốc** đã đặt bên tab *Mệnh lệnh*.
+- **Thay đổi phí giao hàng** → mở ô **“Mô tả về phí giao hàng”**, thay thế cho mô tả phí giao hàng gốc.
+
+👉 Đây là cách tung ưu đãi khi khách còn do dự: tin nhắn vừa nhắc khách, vừa áp một mức giá hoặc phí giao hàng tốt hơn bảng giá thường.
+
+## Xây kịch bản nhiều bước
+
+Bạn có thể tạo nhiều tin kéo tương tác với các mốc thời gian khác nhau để duy trì sự quan tâm của khách và giảm rủi ro mất khách giữa chừng.
+
+*Ví dụ: sau 10 phút nhắn nhắc – sau 20 phút nhắn kèm ưu đãi giá – sau 30 phút nhắn kèm miễn phí giao hàng.*

@@ -19,7 +19,7 @@ Không cần phải huấn luyện sẵn tất cả câu hỏi – Diro AI đư�
 
 ![Ảnh minh hoạ](./1.2.png)
 ### 1.3 Hoạt động 24/7, tăng tỉ lệ chốt đơn
-Diro AI Agent hoặt động liên tục 24/7 và phản hồi cho khách hàng ngay khi khách hàng nhắn tin. Thường thì khi khách hàng nhắn tin, họ luôn mong muốn nhận được phản hồi từ page càng sớm càng tốt vì sau đó có thể họ sẽ bận. Nên việc Diro Agent phản hồi tin nhắn liền và giải đáp thắc mắc của khách hàng, cũng như hỗ trợ khách đặt hàng sẽ giúp cho tỉ lệ chốt đơn của page bạn tăng lên đáng kể.
+Diro AI Agent hoạt động liên tục 24/7 và phản hồi cho khách hàng ngay khi khách hàng nhắn tin. Thường thì khi khách hàng nhắn tin, họ luôn mong muốn nhận được phản hồi từ page càng sớm càng tốt vì sau đó có thể họ sẽ bận. Nên việc Diro Agent phản hồi tin nhắn liền và giải đáp thắc mắc của khách hàng, cũng như hỗ trợ khách đặt hàng sẽ giúp cho tỉ lệ chốt đơn của page bạn tăng lên đáng kể.
 
 ![Ảnh minh hoạ](./1.3.png)
 ### 1.4 Tự động nhắn tin thuyết phục khi khách hàng im lặng
@@ -42,7 +42,7 @@ AI sẽ tự động hiểu và thiết lập hành vi theo đúng yêu cầu. G
 
 ![Ảnh minh hoạ](./1.7.png)
 ### 1.8 Tự động chuyển cuộc hồi thoại cho người thật khi AI không thể xử lý được
-Trong các trường hợp AI không xử lý được câu hỏi phức tạp hay AI không có đủ dữ liệu khách hàng ưu cầu, hệ thống sẽ ngay lập tức chuyển tiếp cho nhân viên thật xử lý. Khách không bị gián đoạn, còn bạn thì luôn kiểm soát được những tình huống quan trọng.
+Trong các trường hợp AI không xử lý được câu hỏi phức tạp hay AI không có đủ dữ liệu khách hàng yêu cầu, hệ thống sẽ ngay lập tức chuyển tiếp cho nhân viên thật xử lý. Khách không bị gián đoạn, còn bạn thì luôn kiểm soát được những tình huống quan trọng.
 
 ![Ảnh minh hoạ](./1.8.png)
 ### 1.9 Huấn luyện AI theo phong cách riêng của bạn
@@ -55,11 +55,11 @@ Toàn bộ tin nhắn từ nhiều Fanpage, bài quảng cáo đều được go
 
 ![Ảnh minh hoạ](./2.1.png)
 ### 2.2 Phân loại trạng thái cuộc hội thoại
-Hệ thống cho phép **phân loại khách hàng** theo trạng thái: Tư vấn – Tìm năng - Chốt đơn – Huỷ đơn - Từ chối - Spam. Hỗ trợ bộ lọc Trạng thái để bạn dễ dàng ưu tiên xử lý, tránh bỏ sót khách.
+Hệ thống cho phép **phân loại khách hàng** theo trạng thái: Tư vấn – Tiềm năng – Chốt đơn – Đã gửi – Hết hàng – Trả hàng. Mỗi cuộc hội thoại còn gắn được **thẻ**: Chờ xử lý đơn, Câu hỏi, Chốt đơn, Đã gửi, Hết hàng, Trả hàng. Hỗ trợ lọc theo trạng thái, theo người xử lý (AI / nhân viên), theo khách cũ, theo hội thoại đã có số điện thoại hoặc địa chỉ – giúp bạn ưu tiên xử lý, tránh bỏ sót khách.
 
 ![Ảnh minh hoạ](./2.2.png)
 ### 2.3 Phản hồi khách hàng trực tiếp từ Diro dashboard
-Khi khách để lại thông tin cần thiết (số điện thoại, địa chỉ ), DIRO AI sẽ tự động trích xuất và **tạo đơn hàng ngay trên hệ thống** – kết nối trực tiếp với phần mềm quản lý đơn hàng. Tiết kiệm thời gian gõ tay, hạn chế sai sót, và bạn có thể kiểm tra đơn hàng bất cứ lúc nào.
+Bạn nhắn trực tiếp cho khách ngay trong màn hình **Hội thoại** của Diro, không cần mở Facebook. Khi cần tự tay xử lý một ca khó, chỉ việc trả lời trong khung chat – AI sẽ tạm dừng để nhường cho nhân viên, rồi tự trả cuộc hội thoại lại cho AI sau khoảng thời gian bạn đặt.
 
 ![Ảnh minh hoạ](./2.3.png)
 ### 2.4 Tự động lên đơn
@@ -71,12 +71,15 @@ AI sẽ tự động ẩn bình luận tiêu cực khỏi bài viết. Bình lu�
 
 ![Ảnh minh hoạ](./2.5.png)
 ### 2.6 Tự động nhắn tin khi khách hàng bình luận vào bài viết
-Ngay khi khách để lại bình l  uận, AI sẽ **tự động gửi tin nhắn vào inbox của họ**, mở ra cuộc hội thoại cá nhân. Từ đó chăm sóc khách kịp thời, vừa tăng tỷ lệ chuyển đổi từ tương tác sang đơn hàng.
+Ngay khi khách để lại bình luận, AI sẽ **tự động gửi tin nhắn vào inbox của họ**, mở ra cuộc hội thoại cá nhân. Từ đó chăm sóc khách kịp thời, vừa tăng tỷ lệ chuyển đổi từ tương tác sang đơn hàng.
 
 ## 3. Quản lý đơn hàng
 ### 3.1 Quản lý danh sách đơn hàng
-Tất cả các đơn hàng từ AI tạo ra hoặc bạn nhập thủ công đều được **tổng hợp trên một bảng quản lý tập trung**, dễ nhìn – gồm các thông tin: tên khách hàng, sản phẩm, số điện thoại, địa chỉ, số tiền, thời gian ghi chú, trạng thái đơn hàng (mới – nhập hàng lại - đã xác nhận - đang đóng gói – chờ lấy hàng - đã vận chuyển - đã giao hàng - đã thu tiền - đã trả hàng - đã trả hàng một phần - đã trả hàng - đã huỷ - đã xoá)...
-Bạn có thể **lọc, tìm kiếm, sắp xếp** mã đơn hàng, số điện thoại rất tiện lợi.
+Tất cả các đơn hàng từ AI tạo ra hoặc bạn nhập thủ công đều được **tổng hợp trên một bảng quản lý tập trung**, dễ nhìn – gồm các thông tin: tên khách hàng, sản phẩm, số điện thoại, địa chỉ, số tiền, ghi chú nội bộ, trạng thái đơn hàng.
+
+Đơn hàng đi qua 14 trạng thái: Mới – Chờ hàng – Đã xác nhận – Đang đóng hàng – Chờ lấy hàng – Chờ xử lý đơn – Đang vận chuyển – Đã giao hàng – Đã thu tiền – Đang trả hàng – Đã trả hàng một phần – Đã trả hàng – Đã hủy – Đã xóa.
+
+Bạn có thể **lọc, tìm kiếm, sắp xếp** theo mã đơn, mã vận đơn, số điện thoại, khoảng ngày và sản phẩm.
 
 ![Ảnh minh hoạ](./3.1.png)
 

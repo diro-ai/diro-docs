@@ -17,7 +17,7 @@ title: Tạo AI Agent
 
 3. Tên cửa hàng: AI sẽ dùng tên này khi trò chuyện với khách (ví dụ: Chào chị, em đến từ **KAIO shop** ạ!)
 
-4. Mô tả cửa hàng: Dùng để AI giới thiệu về cửa hàng/sản phẩm khi cần (ví dụ: *Bên em **chuyên nệm Topper xuất Nhật, mẫu mã đang dạng ạ***)
+4. Mô tả cửa hàng: Dùng để AI giới thiệu về cửa hàng/sản phẩm khi cần (ví dụ: *Bên em **chuyên nệm Topper xuất Nhật, mẫu mã đa dạng ạ***)
 
 5. Bạn hãy chọn 1 trong 3 tiêu chí sau để Diro tối ưu kịch bản AI theo mục đích:
 * Bán sản phẩm: <br />

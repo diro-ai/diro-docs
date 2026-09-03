@@ -13,7 +13,7 @@ title: Thêm page
 
 ![image](7.2.png)
 
-🔹 Bước 3: Chọn ô **“Chọn áp dụng cho riêng Trang hiện tai”**(*) - Chọn các **Fanpage** bạn muốn thêm vào sử dụng với Diro và chọn **“Tiếp tục”**
+🔹 Bước 3: Chọn ô **“Chọn áp dụng cho riêng Trang hiện tại”**(*) - Chọn các **Fanpage** bạn muốn thêm vào sử dụng với Diro và chọn **“Tiếp tục”**
 
 ![image](7.3.png)
 **Nếu bạn muốn các Trang mới mà bạn quản lý trong tương lai tự động kết nối với Diro, hãy chọn “Chọn áp dụng cho tất cả Trang ở hiện tại và tương lai”*
