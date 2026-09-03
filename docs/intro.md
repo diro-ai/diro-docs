@@ -20,4 +20,4 @@ Diro AI là một AI Agent có khả năng tư vấn cho khách hàng, thuyết 
 3. Quản lý đơn hàng
 - Quản lý danh sách đơn hàng được tạo ra
 
-Xem thêm chi tiết ở Các Chức Năng Chính Của Diro
+👉 Xem thêm chi tiết ở [Các chức năng chính của Diro](./main-features/index.md)
