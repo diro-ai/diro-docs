@@ -31,17 +31,14 @@ Thanh chỉ số ở góc trên bên phải cho bạn biết trước tốc đ�
 
 ## 📥 Bước 1: Tải phần mềm về máy
 
-👉 **[Bấm vào đây để tới trang tải](https://github.com/nhatduy129/diro-video-editor/releases/latest)**
-
-Ở mục **Assets** cuối trang, chọn đúng file cho máy của bạn:
-
-| Máy của bạn | File cần tải | Sau khi tải xong |
+| Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | `DiroVideoEditor-1.0.0-win-x64.zip` (≈107 MB) | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
-| **macOS 14 trở lên** | `DiroVideoEditor-1.0.0-macos.zip` | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.0.0/DiroVideoEditor-1.0.0-win-x64.zip)**<br />`DiroVideoEditor-1.0.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
+| **macOS 14 trở lên** | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.0.0/DiroVideoEditor-1.0.0-macos.zip)**<br />`DiroVideoEditor-1.0.0-macos.zip` · ≈1 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
 
 Số `1.0.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
-giữ bản nào. Bản mới hơn sẽ có số lớn hơn.
+giữ bản nào. Xem các bản phát hành khác tại
+[trang Releases](https://github.com/nhatduy129/diro-video-editor/releases).
 
 :::note Cách giải nén
 **Windows**: bấm chuột phải vào file `.zip` → **Extract All…** → **Extract**.
