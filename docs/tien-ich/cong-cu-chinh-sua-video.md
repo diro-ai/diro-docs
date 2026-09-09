@@ -33,10 +33,10 @@ Thanh chỉ số ở góc trên bên phải cho bạn biết trước tốc đ�
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.0.0/DiroVideoEditor-1.0.0-win-x64.zip)**<br />`DiroVideoEditor-1.0.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
-| **macOS 14 trở lên** | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.0.0/DiroVideoEditor-1.0.0-macos.zip)**<br />`DiroVideoEditor-1.0.0-macos.zip` · ≈1 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.1.0/DiroVideoEditor-1.1.0-win-x64.zip)**<br />`DiroVideoEditor-1.1.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
+| **macOS 14 trở lên** | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.1.0/DiroVideoEditor-1.1.0-macos.zip)**<br />`DiroVideoEditor-1.1.0-macos.zip` · ≈1 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
 
-Số `1.0.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
+Số `1.1.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
 giữ bản nào. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-video-editor/releases).
 
@@ -98,11 +98,16 @@ Phần mềm sẽ **kiểm tra key với Cartesia trước khi lưu**, nên nế
 hoặc thiếu ký tự thì nó báo ngay chứ không để bạn làm tiếp rồi mới hỏng.
 
 :::info Key của bạn được cất ở đâu?
-Key được lưu vào **kho bảo mật của hệ điều hành** (Keychain trên macOS, DPAPI
-trên Windows), mã hoá theo tài khoản máy của bạn — không nằm trần trong file cấu
-hình nào. Lần sau mở phần mềm không phải nhập lại.
+Key nằm trên chính máy bạn, chỉ tài khoản máy của bạn đọc được: trên Windows là
+**kho bảo mật DPAPI** của hệ điều hành, trên macOS là file riêng trong thư mục
+`Library` của bạn. Key không gửi đi đâu ngoài Cartesia, và lần sau mở phần mềm
+không phải nhập lại.
 
 Muốn đổi hoặc xoá key: bấm nút **Cài đặt** ở góc trên bên phải.
+
+**Đang dùng bản macOS cũ hơn 1.1.0?** Bản 1.1.0 đổi chỗ cất key nên lần đầu mở
+lên bạn phải dán key vào một lần nữa, sau đó thì thôi. Đổi lại, macOS không còn
+hỏi mật khẩu đăng nhập mỗi lần mở phần mềm.
 :::
 
 ![Hộp thoại Cài đặt](04-cai-dat.png)
