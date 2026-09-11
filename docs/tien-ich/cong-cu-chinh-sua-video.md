@@ -33,10 +33,10 @@ Thanh chỉ số ở góc trên bên phải cho bạn biết trước tốc đ�
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.1.0/DiroVideoEditor-1.1.0-win-x64.zip)**<br />`DiroVideoEditor-1.1.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
-| **macOS 14 trở lên** | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.1.0/DiroVideoEditor-1.1.0-macos.zip)**<br />`DiroVideoEditor-1.1.0-macos.zip` · ≈1 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.2.0/DiroVideoEditor-1.2.0-win-x64.zip)**<br />`DiroVideoEditor-1.2.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
+| **macOS 14 trở lên** | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.2.0/DiroVideoEditor-1.2.0-macos.zip)**<br />`DiroVideoEditor-1.2.0-macos.zip` · ≈1 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
 
-Số `1.1.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
+Số `1.2.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
 giữ bản nào. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-video-editor/releases).
 
@@ -172,8 +172,9 @@ Sửa tới đâu, thanh chỉ số phía trên đổi tới đó. Đây là ch�
 ## ✂️ Bước 5: Cắt bớt đoạn thừa
 
 🔹 Bấm vào **thanh thời gian** để nhảy tới giây cần cắt
+🔹 Gõ phím **←** hoặc **→** để xê dịch **từng 0,1 giây** cho đúng điểm
 🔹 Bấm **Đánh dấu đầu tại …**
-🔹 Kéo hoặc bấm tiếp tới điểm cuối
+🔹 Kéo hoặc bấm tiếp tới điểm cuối, cũng chỉnh bằng **←** **→** cho chuẩn
 🔹 Bấm **✂ Cắt đoạn này**
 
 Đoạn bị cắt hiện **màu đỏ** trên thanh thời gian và liệt kê ở mục **ĐOẠN ĐÃ CẮT**
@@ -181,6 +182,18 @@ bên dưới. Bấm 👁 để xem lại đoạn đó, bấm ✕ để bỏ cắ
 
 Tích sẵn ô **Bỏ qua đoạn đã cắt khi xem** để lúc xem trước, phần mềm tự nhảy qua
 những đoạn bạn đã bỏ — xem đúng như bản cuối cùng.
+
+:::tip Canh điểm cắt cho chuẩn từng 0,1 giây (từ bản 1.2.0)
+Bấm chuột thôi thì khó trúng: thanh thời gian chỉ rộng vài trăm điểm ảnh, video
+dài 5 phút thì mỗi điểm ảnh đã là hơn nửa giây.
+
+Bấm vào thanh một cái, **viền thanh sáng lên** — từ lúc đó phím **←** và **→**
+dời vạch đỏ đi **0,1 giây** mỗi lần bấm. Giữ phím thì nó chạy đều. Con số giây
+ngay bên trên đổi theo, bạn nhìn đó mà canh.
+
+Đang phát mà gõ mũi tên thì phần mềm **tự dừng lại**, vì đang chạy thì canh
+không nổi.
+:::
 
 :::note Cắt video KHÔNG tự xoá chữ tương ứng
 Đây là cố ý, để bạn tự quyết định giữ hay bỏ câu nào. Cắt xong nhớ ngó lại ô nội
