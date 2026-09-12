@@ -33,10 +33,10 @@ Thanh chỉ số ở góc trên bên phải cho bạn biết trước tốc đ�
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.3.0/DiroVideoEditor-1.3.0-win-x64.zip)**<br />`DiroVideoEditor-1.3.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
-| **macOS 14 trở lên** | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.3.0/DiroVideoEditor-1.3.0-macos.zip)**<br />`DiroVideoEditor-1.3.0-macos.zip` · ≈1 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.3.1/DiroVideoEditor-1.3.1-win-x64.zip)**<br />`DiroVideoEditor-1.3.1-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
+| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.3.1/DiroVideoEditor-1.3.1-macos.zip)**<br />`DiroVideoEditor-1.3.1-macos.zip` · ≈1,4 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
 
-Số `1.3.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
+Số `1.3.1` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
 giữ bản nào. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-video-editor/releases).
 
@@ -55,9 +55,24 @@ Phần mềm chưa mua chứng chỉ ký số nên hệ điều hành chưa "que
 🔹 Bấm **More info** → 🔹 Bấm **Run anyway**
 
 **Trên macOS** — báo *"không mở được vì chưa xác minh nhà phát triển"*:
-🔹 Bấm **chuột phải** vào app → 🔹 Chọn **Open** → 🔹 Bấm **Open** lần nữa
+
+*Từ macOS 15 (Sequoia) trở lên* — Apple đã **bỏ** cách bấm chuột phải → Open,
+nên phải đi đường này:
+🔹 Bấm đúp vào app một lần (sẽ hiện cảnh báo, cứ bấm **Done**) →
+🔹 Vào  **> System Settings > Privacy & Security** →
+🔹 Kéo xuống cuối, chỗ nhắc tên *Video Editor*, bấm **Open Anyway** →
+🔹 Xác nhận bằng vân tay hoặc mật khẩu máy
+
+*macOS 14* — bấm **chuột phải** vào app → chọn **Open** → bấm **Open** lần nữa.
 
 Chỉ phải làm một lần duy nhất. Các lần sau mở bình thường.
+
+Vẫn không mở được, hoặc báo app *"bị hỏng"*? Mở **Terminal**, dán dòng này rồi
+Enter, sau đó mở app lại:
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/Video Editor.app"
+```
 :::
 
 :::info Trong file zip bản Windows có gì
@@ -339,6 +354,7 @@ nâng gói tại [play.cartesia.ai/subscription](https://play.cartesia.ai/subscr
 
 ## 📌 Cần chuẩn bị những gì
 
-- Máy **Windows 10/11** hoặc **macOS 14** trở lên
+- Máy **Windows 10/11** hoặc **macOS 14** trở lên (macOS chạy được cả máy chip
+  Apple lẫn máy chip Intel)
 - Một tài khoản **Cartesia** hoặc **ElevenLabs** (đăng ký miễn phí) để lấy API key
 - Kết nối mạng khi nghe video và khi tạo giọng đọc
