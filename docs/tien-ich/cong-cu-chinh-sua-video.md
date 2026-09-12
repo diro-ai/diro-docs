@@ -33,10 +33,10 @@ Thanh chỉ số ở góc trên bên phải cho bạn biết trước tốc đ�
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.2.0/DiroVideoEditor-1.2.0-win-x64.zip)**<br />`DiroVideoEditor-1.2.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
-| **macOS 14 trở lên** | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.2.0/DiroVideoEditor-1.2.0-macos.zip)**<br />`DiroVideoEditor-1.2.0-macos.zip` · ≈1 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.3.0/DiroVideoEditor-1.3.0-win-x64.zip)**<br />`DiroVideoEditor-1.3.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
+| **macOS 14 trở lên** | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.3.0/DiroVideoEditor-1.3.0-macos.zip)**<br />`DiroVideoEditor-1.3.0-macos.zip` · ≈1 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
 
-Số `1.2.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
+Số `1.3.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
 giữ bản nào. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-video-editor/releases).
 
@@ -74,36 +74,50 @@ tiên hơi lâu vài giây vì máy đang bung bộ xử lý video ra; những l
 
 ---
 
-## 🔑 Bước 2: Lấy API key Cartesia
+## 🔑 Bước 2: Lấy API key
 
-Phần mềm dùng dịch vụ **Cartesia** để nghe video và tạo giọng đọc. Bạn cần một
-API key riêng của mình — key này gắn với tài khoản của bạn, và chi phí đọc tính
-vào tài khoản đó.
+Phần mềm cần một dịch vụ để nghe video và tạo giọng đọc. Bạn chọn **một trong
+hai**, tuỳ bạn thích giọng bên nào hơn:
 
-🔹 **Bước 2.1** — Vào [play.cartesia.ai](https://play.cartesia.ai) và **đăng ký
-tài khoản** (đăng nhập bằng Google cho nhanh).
+| | Cartesia | ElevenLabs |
+|---|---|---|
+| Lấy key tại | [play.cartesia.ai/keys](https://play.cartesia.ai/keys) | [elevenlabs.io](https://elevenlabs.io/app/settings/api-keys) |
+| Key trông như | `sk_car_…` | `sk_…` |
+| Giọng đọc | danh sách giọng tiếng Việt sẵn có | cả thư viện giọng của tài khoản, giọng tiếng Việt xếp lên đầu |
 
-🔹 **Bước 2.2** — Vào thẳng trang [play.cartesia.ai/keys](https://play.cartesia.ai/keys).
+Key gắn với tài khoản của bạn, và chi phí đọc tính vào tài khoản đó.
 
-🔹 **Bước 2.3** — Bấm nút **Create API Key**, đặt tên bất kỳ (ví dụ `Diro Video Editor`).
+🔹 **Bước 2.1** — Vào trang của bên bạn chọn ở bảng trên và **đăng ký tài khoản**
+(đăng nhập bằng Google cho nhanh).
 
-🔹 **Bước 2.4** — Cartesia hiện ra một chuỗi bắt đầu bằng `sk_car_…`.
-**Sao chép ngay lúc đó** — đóng cửa sổ đi là không xem lại được nữa, phải tạo key mới.
+🔹 **Bước 2.2** — Vào mục **API Keys** rồi bấm tạo key mới, đặt tên bất kỳ
+(ví dụ `Diro Video Editor`).
 
-🔹 **Bước 2.5** — Mở Diro Video Editor, dán key vào ô rồi bấm **Kiểm tra & bắt đầu**.
+🔹 **Bước 2.3** — Trang web hiện ra một chuỗi dài. **Sao chép ngay lúc đó** —
+đóng cửa sổ đi là không xem lại được nữa, phải tạo key mới.
+
+🔹 **Bước 2.4** — Mở Diro Video Editor, dán key vào ô rồi bấm **Kiểm tra & bắt đầu**.
 
 ![Màn hình nhập API key](01-nhap-key.png)
 
-Phần mềm sẽ **kiểm tra key với Cartesia trước khi lưu**, nên nếu bạn dán nhầm
-hoặc thiếu ký tự thì nó báo ngay chứ không để bạn làm tiếp rồi mới hỏng.
+**Chỉ có một ô nhập key cho cả hai bên.** Phần mềm tự nhận ra bạn đang dán key
+của ai và hiện tên bên đó ngay cạnh chữ **API KEY**, nên không phải chọn gì thêm.
+Nó cũng **kiểm tra key trước khi lưu**, nên dán nhầm hoặc thiếu ký tự thì báo
+ngay chứ không để bạn làm tiếp rồi mới hỏng.
+
+Đổi từ bên này sang bên kia bất cứ lúc nào: vào **Cài đặt**, dán key mới đè lên.
+Danh sách giọng sẽ tải lại theo bên mới.
 
 :::info Key của bạn được cất ở đâu?
 Key nằm trên chính máy bạn, chỉ tài khoản máy của bạn đọc được: trên Windows là
 **kho bảo mật DPAPI** của hệ điều hành, trên macOS là file riêng trong thư mục
-`Library` của bạn. Key không gửi đi đâu ngoài Cartesia, và lần sau mở phần mềm
-không phải nhập lại.
+`Library` của bạn. Key không gửi đi đâu ngoài dịch vụ bạn chọn, và lần sau mở
+phần mềm không phải nhập lại.
 
 Muốn đổi hoặc xoá key: bấm nút **Cài đặt** ở góc trên bên phải.
+
+**Đang dùng bản cũ hơn 1.3.0?** Key cũ được chuyển sang chỗ mới tự động, bạn
+không phải nhập lại.
 
 **Đang dùng bản macOS cũ hơn 1.1.0?** Bản 1.1.0 đổi chỗ cất key nên lần đầu mở
 lên bạn phải dán key vào một lần nữa, sau đó thì thôi. Đổi lại, macOS không còn
@@ -125,8 +139,20 @@ Một video 60 giây với lời đọc 700 chữ tốn khoảng **730 credit**.
 Cartesia đều tặng sẵn một lượng credit hằng tháng. Xem mình đã dùng bao nhiêu
 tại [play.cartesia.ai/usage](https://play.cartesia.ai/usage).
 
+ElevenLabs cũng tính theo ký tự, xem mức dùng tại
+[elevenlabs.io](https://elevenlabs.io/app/usage).
+
+:::warning Gói miễn phí của ElevenLabs có hai giới hạn
+Những giọng lấy từ **thư viện chung** (trong đó có phần lớn giọng tiếng Việt hay)
+chỉ dùng được khi tài khoản đã nâng gói — gói miễn phí bấm vào sẽ báo lỗi cần
+trả phí. Các giọng có sẵn của ElevenLabs thì dùng được, nhưng đọc tiếng Việt hơi
+nặng giọng nước ngoài.
+
+Muốn giọng Việt tự nhiên mà không nâng gói thì dùng **Cartesia**.
+:::
+
 :::tip Nghe thử không tốn tiền
-Trong danh sách giọng đọc, nút ▷ là **nghe mẫu có sẵn của Cartesia — miễn phí**.
+Trong danh sách giọng đọc, nút ▷ là **nghe mẫu có sẵn — miễn phí**.
 Nút 💬 bên cạnh mới là đọc thử chính nội dung của bạn, cái này có tính phí (rất nhỏ).
 :::
 
@@ -204,12 +230,26 @@ dung xem có cần bớt chữ không.
 
 ## 🎙️ Bước 6: Chọn giọng đọc
 
-Danh sách chỉ hiện **giọng tiếng Việt**. Mỗi dòng có tên giọng, nhãn Nam/Nữ và
-mô tả ngắn.
+Mỗi dòng có tên giọng, nhãn Nam/Nữ và mô tả ngắn.
 
 - Bấm **▷** để nghe mẫu có sẵn (miễn phí)
 - Bấm **💬** để nghe giọng đó đọc chính nội dung của bạn (tốn rất ít)
+- Bấm **📌** để ghim giọng đó lên đầu danh sách
 - Bấm vào dòng để chọn
+
+Dùng key **Cartesia** thì danh sách chỉ hiện giọng tiếng Việt. Dùng key
+**ElevenLabs** thì danh sách hiện cả thư viện giọng của tài khoản bạn, có nhãn
+ngôn ngữ ở mỗi dòng và giọng tiếng Việt được xếp lên đầu.
+
+:::tip Ghim giọng hay dùng (từ bản 1.3.0)
+Hay dùng đi dùng lại một giọng thì bấm **📌** ở cuối dòng — giọng đó nhảy lên
+đầu danh sách và **nằm nguyên ở đó những lần mở phần mềm sau**, khỏi phải cuộn
+đi tìm. Giọng đầu danh sách cũng là giọng được chọn sẵn.
+
+Ghim thêm giọng nữa thì giọng vừa ghim nằm trên cùng. Bấm lại **📌** là bỏ ghim,
+giọng về đúng chỗ cũ. Ghim lưu ở máy bạn: đổi sang key của bên kia rồi quay lại
+thì ghim cũ vẫn còn nguyên.
+:::
 
 ---
 
@@ -274,8 +314,14 @@ Link rút gọn đã hết hạn hoặc video bị gỡ. Mở lại video trên 
 → **Sao chép liên kết**, rồi dán lại. Video ở chế độ riêng tư thì không tải được.
 
 **Báo "API key không hợp lệ"**
-Key bị thiếu ký tự lúc sao chép, hoặc đã bị xoá bên Cartesia. Tạo key mới tại
-[play.cartesia.ai/keys](https://play.cartesia.ai/keys) rồi vào **Cài đặt** dán lại.
+Key bị thiếu ký tự lúc sao chép, hoặc đã bị xoá bên dịch vụ. Tạo key mới
+([Cartesia](https://play.cartesia.ai/keys) ·
+[ElevenLabs](https://elevenlabs.io/app/settings/api-keys)) rồi vào **Cài đặt**
+dán lại.
+
+**Báo lỗi cần trả phí khi tạo giọng đọc (ElevenLabs)**
+Giọng bạn chọn lấy từ thư viện chung, gói miễn phí không dùng được. Chọn một
+giọng có sẵn khác của ElevenLabs, hoặc nâng gói, hoặc chuyển sang key Cartesia.
 
 **Nghe không ra chữ, ô nội dung để trống**
 Video không có tiếng, hoặc tiếng quá nhỏ / lẫn nhiều tạp âm. Bạn vẫn **tự gõ nội
@@ -294,5 +340,5 @@ nâng gói tại [play.cartesia.ai/subscription](https://play.cartesia.ai/subscr
 ## 📌 Cần chuẩn bị những gì
 
 - Máy **Windows 10/11** hoặc **macOS 14** trở lên
-- Một tài khoản **Cartesia** (đăng ký miễn phí) để lấy API key
+- Một tài khoản **Cartesia** hoặc **ElevenLabs** (đăng ký miễn phí) để lấy API key
 - Kết nối mạng khi nghe video và khi tạo giọng đọc
