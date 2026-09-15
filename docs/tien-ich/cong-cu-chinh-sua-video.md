@@ -33,10 +33,10 @@ Thanh chỉ số ở góc trên bên phải cho bạn biết trước tốc đ�
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.3.1/DiroVideoEditor-1.3.1-win-x64.zip)**<br />`DiroVideoEditor-1.3.1-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
-| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.3.1/DiroVideoEditor-1.3.1-macos.zip)**<br />`DiroVideoEditor-1.3.1-macos.zip` · ≈1,4 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.4.0/DiroVideoEditor-1.4.0-win-x64.zip)**<br />`DiroVideoEditor-1.4.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
+| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.4.0/DiroVideoEditor-1.4.0-macos.zip)**<br />`DiroVideoEditor-1.4.0-macos.zip` · ≈1,4 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
 
-Số `1.3.1` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
+Số `1.4.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
 giữ bản nào. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-video-editor/releases).
 
@@ -287,6 +287,31 @@ thì ghim cũ vẫn còn nguyên.
 
 ---
 
+## 🔊 Không muốn đổi giọng? Dùng âm thanh gốc (từ bản 1.4.0) {#dung-am-thanh-goc}
+
+Có khi bạn chỉ cần **cắt bớt video** mà vẫn giữ nguyên tiếng thật trong đó. Khi
+đó tick ô **Sử dụng âm thanh gốc** ngay dưới thanh chỉ số:
+
+- Phần mềm **không tạo giọng đọc AI** — không tốn credit, không cần chọn giọng
+  hay sửa chữ (hai khung đó bị làm mờ đi)
+- Video xuất ra dùng **chính tiếng của video gốc**
+- Nếu bạn **có cắt bớt video**, tiếng gốc được **tua nhanh hơn** cho vừa khít độ
+  dài mới. Cả bài tiếng vẫn còn đủ, kể cả lời nói nằm ở đoạn bạn đã cắt
+- Không cắt gì thì tiếng giữ nguyên, không bị tua
+
+Thanh chỉ số lúc này báo **"Tiếng gốc sẽ NHANH HƠN ~x%"**. Ví dụ video 40 giây
+cắt còn 30 giây thì tiếng chạy nhanh hơn khoảng 33%. Cắt càng nhiều, tiếng càng
+nhanh — lên màu đỏ là nghe sẽ méo, nên bớt cắt lại.
+
+:::note Hình và tiếng không còn khớp nhau từng chỗ
+Vì cả bài tiếng được tua đều, lời nói sẽ không còn khớp với khẩu hình ở từng
+khung hình như video gốc. Muốn khớp thì đừng cắt, hoặc bỏ tick để lồng giọng AI.
+:::
+
+Lựa chọn này được lưu kèm khi bạn **Lưu phiên**.
+
+---
+
 ## 💾 Bước 7: Xuất video
 
 Bấm **Xuất video**, chọn chỗ lưu. Phần mềm sẽ tạo giọng đọc, co cho khớp đúng
@@ -298,6 +323,9 @@ Xong, nó báo cho bạn biết giọng đọc đã chạy ở tốc độ bao n
 :::info Tiếng gốc của video bị thay hoàn toàn
 Video xuất ra **chỉ còn giọng đọc mới**, không còn tiếng gốc và cũng không có
 nhạc nền của video cũ. Muốn có nhạc nền thì ghép thêm ở phần mềm khác.
+
+Muốn giữ tiếng gốc thay vì giọng AI thì tick
+[**Sử dụng âm thanh gốc**](#dung-am-thanh-goc).
 :::
 
 ---
@@ -305,7 +333,8 @@ nhạc nền của video cũ. Muốn có nhạc nền thì ghép thêm ở phầ
 ## 📁 Lưu việc đang làm dở
 
 Làm nửa chừng mà phải tắt máy? Bấm **Lưu phiên…** để lưu ra file `.dve`. File
-này gói **cả video, nội dung chữ, các đoạn đã cắt và giọng đang chọn**.
+này gói **cả video, nội dung chữ, các đoạn đã cắt, giọng đang chọn và lựa chọn
+dùng âm thanh gốc**.
 
 Hôm sau mở phần mềm, bấm **Mở phiên đã lưu (.dve)…** là làm tiếp đúng chỗ cũ.
 
