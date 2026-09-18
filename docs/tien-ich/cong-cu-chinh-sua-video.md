@@ -27,16 +27,22 @@ Thanh chỉ số ở góc trên bên phải cho bạn biết trước tốc đ�
 **trước khi** bạn tốn tiền gọi API.
 :::
 
+:::info Chỉ muốn tải video TikTok về máy?
+Không cần làm hết các bước dưới. Nút **Tiện ích** ở góc trên bên phải có
+[**Tải video TikTok**](#tai-video-tiktok) — dán nhiều link, tải một lượt, không
+cần API key.
+:::
+
 ---
 
 ## 📥 Bước 1: Tải phần mềm về máy
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.4.0/DiroVideoEditor-1.4.0-win-x64.zip)**<br />`DiroVideoEditor-1.4.0-win-x64.zip` · ≈104 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
-| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.4.0/DiroVideoEditor-1.4.0-macos.zip)**<br />`DiroVideoEditor-1.4.0-macos.zip` · ≈1,4 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.5.0/DiroVideoEditor-1.5.0-win-x64.zip)**<br />`DiroVideoEditor-1.5.0-win-x64.zip` · ≈103 MB | **Giải nén** rồi bấm đúp `DiroVideoEditor.exe` — **không cần cài đặt** |
+| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-video-editor/releases/download/v1.5.0/DiroVideoEditor-1.5.0-macos.zip)**<br />`DiroVideoEditor-1.5.0-macos.zip` · ≈1,7 MB | **Giải nén** rồi kéo `Video Editor.app` vào thư mục **Applications** |
 
-Số `1.4.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
+Số `1.5.0` trong tên file là **phiên bản** — bạn nhìn tên file là biết mình đang
 giữ bản nào. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-video-editor/releases).
 
@@ -351,6 +357,53 @@ trên MacBook vẫn chạy bình thường.
 
 ---
 
+## 📥 Tiện ích: tải nhiều video TikTok một lượt (từ bản 1.5.0) {#tai-video-tiktok}
+
+Không liên quan tới việc lồng giọng — đây là công cụ tải video riêng. Bấm nút
+**Tiện ích** ở **góc trên bên phải**, chọn **Tải video TikTok**.
+
+![Màn tải nhiều video TikTok một lượt](06-tai-video-tiktok.png)
+
+Màn hình có sẵn **3 dòng**. Mỗi dòng: **dán link TikTok** ở ô bên trái, **tên
+file** muốn lưu ở ô bên phải. Tên mặc định là `video1`, `video2`, `video3` — sửa
+được tuỳ ý, gõ tiếng Việt có dấu cũng được. Cần thêm thì bấm **+ Thêm link**,
+thừa thì bấm dấu **✕** ở cuối dòng.
+
+Bấm **Tải về** là phần mềm tải **lần lượt** từng link. Xong thì báo
+**"Đã tải 3/3 video. Đã lưu vào …"** kèm nút **Mở thư mục**.
+
+:::tip File lưu ở đâu
+Luôn lưu vào thư mục **Downloads**, trong một thư mục con đặt tên theo **ngày
+giờ bạn bấm Tải về** — ví dụ `Downloads/20260918_1430` là lô tải lúc 14:30 ngày
+18/09/2026.
+
+Cả lô nằm gọn trong một thư mục, nên lần sau tải lô khác không bị lẫn vào nhau.
+Trùng tên file thì phần mềm tự thêm số: `clip.mp4`, `clip (2).mp4` — **không
+ghi đè** file cũ.
+:::
+
+**Một link chết không làm hỏng cả lô.** Link nào lỗi thì dòng đó hiện đỏ kèm lý
+do, những link còn lại vẫn tải về bình thường. Dán 10 link mà 1 link đã bị gỡ
+thì bạn vẫn có 9 video.
+
+### 🕘 Lịch sử tải
+
+Ngay dưới là mục **Lịch sử tải** — ghi lại **mọi** lần bạn bấm tải, kể cả lần
+thất bại. Mỗi dòng cho biết **tên file, thời điểm tải, link đã dán** và **chỗ
+lưu file**. Bấm vào một dòng là mở luôn chỗ lưu file đó trong Explorer (Windows)
+hoặc Finder (macOS).
+
+Lịch sử lưu **ngay trên máy bạn**, giữ 500 lần tải gần nhất. Muốn dọn thì bấm
+**Xoá lịch sử**.
+
+:::note Không cần API key
+Tiện ích này không gọi API giọng đọc nên **không cần API key và không tốn
+credit**. Nút **Tiện ích** có cả ở màn hình nhập key, dùng được ngay từ lần đầu
+mở phần mềm.
+:::
+
+---
+
 ## ❓ Gặp trục trặc
 
 **Dán link TikTok mà báo link không mở được**
@@ -387,3 +440,6 @@ nâng gói tại [play.cartesia.ai/subscription](https://play.cartesia.ai/subscr
   Apple lẫn máy chip Intel)
 - Một tài khoản **Cartesia** hoặc **ElevenLabs** (đăng ký miễn phí) để lấy API key
 - Kết nối mạng khi nghe video và khi tạo giọng đọc
+
+Riêng tiện ích [**Tải video TikTok**](#tai-video-tiktok) thì chỉ cần máy và mạng
+— không cần API key.
