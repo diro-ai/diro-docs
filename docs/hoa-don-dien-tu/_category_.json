@@ -1,0 +1,7 @@
+{
+  "label": "Hoá đơn điện tử",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "hoa-don-dien-tu/index" }
+}

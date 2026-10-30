@@ -1,0 +1,7 @@
+{
+  "label": "Tích hợp",
+  "position": 11,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "tich-hop/index" }
+}

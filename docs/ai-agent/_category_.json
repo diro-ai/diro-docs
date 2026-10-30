@@ -1,0 +1,7 @@
+{
+  "label": "Chat Agent (AI trả lời tin nhắn)",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "ai-agent/index" }
+}

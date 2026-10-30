@@ -1,0 +1,7 @@
+{
+  "label": "Vận chuyển",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "van-chuyen/index" }
+}
