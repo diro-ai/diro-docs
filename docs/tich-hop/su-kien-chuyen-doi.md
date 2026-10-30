@@ -37,6 +37,8 @@ hàng**, **Chờ lấy hàng**, **Đang vận chuyển**, **Đã giao hàng**, *
   thoại, hay đơn từ TikTok Shop, không có sự kiện.
 - Giá trị gửi đi là **tổng tiền đơn**, kèm danh sách mã sản phẩm và số lượng.
 - Đơn "Tạo lại đơn (sửa lỗi)" không gửi lại sự kiện mà đơn gốc đã gửi.
+- Đơn **đã huỷ** hoặc **đã xoá** không gửi sự kiện nào. Sự kiện đã gửi trước khi huỷ (vd Lượt mua
+  hàng đặt ở mốc Mới) thì Facebook vẫn giữ.
 
 Nếu bạn chọn Lượt mua hàng ở trạng thái **sớm hơn** Lượt bắt đầu thanh toán, trang hiện cảnh
 báo đỏ. Vẫn lưu được, nhưng Facebook có thể nhận sự kiện mua hàng trước sự kiện bắt đầu thanh toán.

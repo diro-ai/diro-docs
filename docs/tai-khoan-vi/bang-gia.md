@@ -30,8 +30,7 @@ tự gửi, số trang, số hội thoại, số nhân viên.
 ## Miễn phí
 
 - Tài khoản đăng ký mới được **tặng 200.000đ** để dùng thử. Khoản tặng này có **hạn dùng 30 ngày**
-  kể từ khi tạo tài khoản; phần chưa dùng hết sẽ hết hạn. (Trang Phí dịch vụ đang ghi "vô thời hạn"
-  — thực tế hệ thống áp hạn 30 ngày.)
+  kể từ khi tạo tài khoản; phần chưa dùng hết sẽ hết hạn.
 - Bạn được giới thiệu nhập mã voucher thì nhận thêm **200.000đ** không thời hạn (xem
   [Giới thiệu bạn bè](./gioi-thieu-ban-be.md)).
 - Không giới hạn số trang, số cuộc hội thoại, số nhân viên.
