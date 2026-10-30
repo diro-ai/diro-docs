@@ -71,3 +71,21 @@
 .navbar__logo {
   margin-right: 1rem;
 }
+.docs-version-badge {
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 999px;
+  color: var(--ifm-color-primary);
+  font-size: 0.8rem;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+
+.docs-version-badge:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 996px) {
+  .docs-version-badge {
+    display: none;
+  }
+}

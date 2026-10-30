@@ -2,6 +2,12 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+// Cặp version Diro (web + backend) mà nội dung docs đang khớp. Cập nhật khi viết lại
+// docs theo bản mới — xem trang "Phiên bản tài liệu".
+import docsVersion from './docs-version.json';
+
+const versionLabel = `Diro web ${docsVersion.web} · backend ${docsVersion.backend}`;
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -75,6 +81,11 @@ const config: Config = {
           label: 'Hướng dẫn',
         },
         {
+          type: 'html',
+          position: 'right',
+          value: `<a class="docs-version-badge" href="/docs/phien-ban-tai-lieu" title="Tài liệu khớp với phiên bản này">${versionLabel}</a>`,
+        },
+        {
           href: 'https://diro.ai',
           label: 'Đăng nhập',
           position: 'right',
@@ -132,7 +143,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Diro, Inc. Built with Docusaurus.`,
+      copyright: `Tài liệu khớp ${versionLabel} (cập nhật ${docsVersion.updated}).<br/>Copyright © ${new Date().getFullYear()} Diro, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
