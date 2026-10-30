@@ -8,11 +8,16 @@ title: Bình luận
 Khi khách bình luận vào bài viết của Fanpage, bình luận đó được đưa vào **hội thoại của chính khách
 đó** trong màn hình Hội thoại — bạn không cần mở một màn hình riêng.
 
-Trong khung chat, bình luận hiện dạng:
+![Hội thoại bắt đầu từ một bình luận](./img/binh-luan-1-hoi-thoai-binh-luan.jpg)
 
-> Khách hàng đã bình luận: **"nón này còn màu be không shop?"** vào bài viết
+1. Người bình luận có một dòng hội thoại trong danh sách, như mọi khách nhắn tin.
+2. Bình luận hiện trong khung chat dạng **Khách hàng đã bình luận: "…" vào bài viết**, kèm ảnh và
+   đoạn đầu của bài viết.
+3. Bấm **Xem bài viết** để mở bài gốc trên Facebook.
+4. Nếu bài viết đã gắn với một sản phẩm (xem mục Chat Agent → Danh sách sản phẩm, tab Bài viết),
+   sản phẩm đó hiện ở cột **Thông tin** để AI và nhân viên biết khách đang hỏi món nào.
 
-kèm thẻ bài viết và nút **Xem bài viết** để mở bài gốc trên Facebook.
+Tin AI nhắn riêng cho người bình luận nằm ngay bên dưới, như một cuộc trò chuyện Messenger bình thường.
 
 - Khách **mới chỉ bình luận**, chưa nhắn tin lần nào, vẫn có một dòng hội thoại trong danh sách.
   Khi khách nhắn tin, hội thoại này tự gộp vào hội thoại Messenger của khách.
