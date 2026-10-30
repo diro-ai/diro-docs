@@ -1,0 +1,7 @@
+{
+  "label": "Tài khoản & ví",
+  "position": 13,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "tai-khoan-vi/index" }
+}

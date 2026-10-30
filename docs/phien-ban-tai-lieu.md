@@ -19,4 +19,5 @@ Nếu hai số này lớn hơn số ghi trên tài liệu thì giao diện có t
 
 | Tài liệu cập nhật | Diro web | Diro backend | Ghi chú |
 |---|---|---|---|
+| 2026-10-30 | 1.11.2 | 1.94.1 | Viết lại toàn bộ theo 12 mục, ảnh chụp mới có khoanh đỏ. |
 | 2026-09-03 | 1.10.7 | 1.58.1 | Bản đầu tiên được đánh dấu phiên bản. Nội dung chưa có các tính năng ra sau 1.58.1. |

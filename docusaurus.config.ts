@@ -60,6 +60,31 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Đường dẫn của bộ tài liệu cũ (trước bản viết lại theo web 1.11.2 · backend 1.94.1)
+        // đã được chia sẻ ra ngoài, giữ cho chúng không 404.
+        redirects: [
+          { from: '/docs/huong-dan', to: '/docs/bat-dau' },
+          { from: '/docs/huong-dan/chat-thu', to: '/docs/ai-agent/chat-thu' },
+          { from: '/docs/huong-dan/gop-trang', to: '/docs/tin-nhan/gop-chat' },
+          { from: '/docs/huong-dan/keo-tuong-tac', to: '/docs/ai-agent/tin-nhan-tu-dong' },
+          { from: '/docs/huong-dan/kich-hoat', to: '/docs/bat-dau/kich-hoat-ai' },
+          { from: '/docs/huong-dan/quan-ly-don-hang', to: '/docs/don-hang/danh-sach-don' },
+          { from: '/docs/huong-dan/quan-ly-tin-nhan', to: '/docs/tin-nhan/man-hinh-hoi-thoai' },
+          { from: '/docs/huong-dan/tao-san-pham', to: '/docs/san-pham-kho/tao-san-pham' },
+          { from: '/docs/huong-dan/them-page', to: '/docs/bat-dau/them-trang' },
+          { from: '/docs/huong-dan/thiet-lap', to: '/docs/bat-dau/kich-hoat-ai' },
+          { from: '/docs/huong-dan/tinh-nang', to: '/docs/ai-agent/thiet-lap-chung' },
+          { from: '/docs/main-features', to: '/docs/intro' },
+          { from: '/docs/diro-prompt-instructions', to: '/docs/ai-agent/cach-viet-lenh' },
+        ],
+      },
+    ],
+  ],
+
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',

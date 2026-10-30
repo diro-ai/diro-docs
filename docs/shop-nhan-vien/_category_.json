@@ -1,0 +1,7 @@
+{
+  "label": "Shop, nhân viên & tài khoản liên kết",
+  "position": 12,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "shop-nhan-vien/index" }
+}
