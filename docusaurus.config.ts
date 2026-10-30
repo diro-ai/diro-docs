@@ -64,7 +64,7 @@ const config: Config = {
     [
       '@docusaurus/plugin-client-redirects',
       {
-        // Đường dẫn của bộ tài liệu cũ (trước bản viết lại theo web 1.11.1 · backend 1.94.0)
+        // Đường dẫn của bộ tài liệu cũ (trước bản viết lại theo web 1.11.2 · backend 1.94.1)
         // đã được chia sẻ ra ngoài, giữ cho chúng không 404.
         redirects: [
           { from: '/docs/huong-dan', to: '/docs/bat-dau' },
