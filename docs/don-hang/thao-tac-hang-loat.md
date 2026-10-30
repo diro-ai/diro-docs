@@ -26,6 +26,23 @@ Khi đã chọn ít nhất một đơn, các nút sau sáng lên:
 Sau khi in hoặc gửi hàng xong, Diro tự bỏ tick các đơn vừa xử lý. Nếu bạn tự tick lại, hãy để ý nút **Huỷ** đứng ngay đầu thanh công cụ: nó áp dụng cho **mọi** đơn đang được tick.
 :::
 
+### Huỷ đơn
+
+![Chọn đơn rồi bấm Huỷ](./img/huy-don-1-chon-don.jpg)
+
+1. Tick đơn cần huỷ.
+2. Bấm **Huỷ**.
+
+![Xác nhận huỷ đơn](./img/huy-don-2-xac-nhan.jpg)
+
+Góc trên bên phải hiện thông báo **Xác nhận huỷ đơn hàng**. Bấm biểu tượng thùng rác (1) để huỷ;
+bỏ qua thông báo thì không có gì thay đổi.
+
+- Đơn **chưa gửi** sang hãng vận chuyển: chuyển ngay sang **Đã hủy**.
+- Đơn đang **Chờ lấy hàng**: Diro **huỷ luôn vận đơn bên hãng** rồi mới chuyển đơn sang **Đã hủy**.
+  Nếu hãng không cho huỷ, đơn giữ nguyên trạng thái và Diro báo lỗi.
+- Đơn hãng **đã lấy hàng**: không huỷ được trên Diro, bạn cần liên hệ hãng để chặn giao hoặc hoàn hàng.
+
 ## Chọn nhanh
 
 ![Menu Chọn nhanh](./img/thao-tac-01-chon-nhanh.jpg)

@@ -46,6 +46,11 @@ Khi trong lô có đơn J&T, hộp này hiện thêm dòng **Khổ giấy tem J&
 hoặc **Giấy J&T in sẵn logo (74×80)** — đúng loại cuộn giấy đang lắp trong máy in. Với cuộn J&T
 in sẵn logo, tem trong file PDF bị xoay ngược là cố ý, để logo nằm đúng góc khi in ra.
 
+![Hộp In đơn hàng khi có đơn J&T](./img/in-tem-hop-in-co-van-don.jpg)
+
+Ví dụ trên là một đơn J&T vừa gửi: (1) đơn nằm ở ô **Chưa in**, (2) dòng **Khổ giấy tem J&T**
+xuất hiện, (3) tick **In kèm nhãn sản phẩm** nếu muốn in cả nhãn, (4) bấm **Xuất PDF**.
+
 ### Các tuỳ chọn hiển thị trên tem
 
 ![Các tuỳ chọn trên tem](./img/in-don-3-tuy-chon-tem.jpg)

@@ -104,6 +104,8 @@ GHTK không có tuỳ chọn riêng. Bạn chỉ cần chọn kho, tài khoản 
 
 ## Bước 3: Xem kết quả
 
+![Hộp Kết quả vận đơn](./img/gui-don-6-ket-qua.jpg)
+
 Bấm **Xác nhận** xong, hộp **Kết quả vận đơn** hiện tiến độ từng đơn với các thẻ **Tất cả**,
 **Thành công**, **Thất bại** và **Cần xác nhận**. Trong lúc đang tạo, đừng đóng trang. Nếu bấm
 đóng, Diro sẽ hỏi lại vì các đơn còn lại có thể chưa được tạo.

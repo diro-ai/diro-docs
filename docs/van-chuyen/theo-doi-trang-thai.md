@@ -42,6 +42,12 @@ copy. Bạn cũng tìm được đơn bằng mã vận đơn ở ô **Mã đơn 
 Mở chi tiết đơn, phần **Vận chuyển** hiện tên hãng, mã vận đơn, tài khoản hãng, và
 **Cập nhật cuối** gồm trạng thái vận chuyển, vị trí, thời gian và ghi chú của hãng.
 
+![Phần Vận chuyển trong chi tiết đơn](./img/theo-doi-chi-tiet-don.jpg)
+
+1. **Mã vận đơn** — bấm biểu tượng bên cạnh để copy.
+2. **Đối tác** và **Tài khoản** — hãng và tài khoản hãng đã dùng để tạo vận đơn.
+3. **Cập nhật cuối** — trạng thái mới nhất hãng báo về (ví dụ trong ảnh là vận đơn vừa bị huỷ).
+
 Với đơn **SPX**, mã vận đơn có màu xanh. Bấm vào mã để mở **Chi tiết vận đơn SPX**: trạng
 thái, SĐT bưu tá, người nhận, địa chỉ, tiền thu hộ, cân nặng và kích thước SPX đang ghi nhận.
 Các hãng khác chưa có khung chi tiết này.
