@@ -25,6 +25,15 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
+      - name: Gắn tag theo cặp version web + backend
+        run: |
+          tag="web-$(node -p "require('./docs-version.json').web")+be-$(node -p "require('./docs-version.json').backend")"
+          if git ls-remote --exit-code --tags origin "refs/tags/$tag" >/dev/null; then
+            echo "Tag $tag đã có, bỏ qua."
+          else
+            git tag "$tag" && git push origin "$tag"
+          fi
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

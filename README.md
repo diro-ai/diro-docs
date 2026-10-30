@@ -39,3 +39,11 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Phiên bản tài liệu
+
+`docs-version.json` ghi cặp version Diro (web + backend) mà nội dung docs đang khớp. Khi viết lại docs theo bản Diro mới:
+
+1. Lấy version đang chạy: `https://diro.ai/api/version` và `https://api.diro.ai/api/version/`.
+2. Sửa `docs-version.json` và thêm một dòng vào bảng ở `docs/phien-ban-tai-lieu.md`.
+3. Đẩy lên `main` — workflow deploy tự gắn tag `web-<web>+be-<backend>`.
