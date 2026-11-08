@@ -28,10 +28,10 @@ bấm **In**. Phần mềm không cần đăng nhập.
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-printer/releases/download/v1.0.0/DiroPrinter-1.0.0-win-x64.zip)**<br />`DiroPrinter-1.0.0-win-x64.zip` · ≈64 MB | **Giải nén** rồi bấm đúp `DiroPrinter.exe`, **không cần cài đặt** |
-| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-printer/releases/download/v1.0.0/DiroPrinter-1.0.0-macos.zip)**<br />`DiroPrinter-1.0.0-macos.zip` · ≈1,7 MB | **Giải nén** rồi kéo `Diro Printer.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-printer/releases/download/v1.1.0/DiroPrinter-1.1.0-win-x64.zip)**<br />`DiroPrinter-1.1.0-win-x64.zip` · ≈64 MB | **Giải nén** rồi bấm đúp `DiroPrinter.exe`, **không cần cài đặt** |
+| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-printer/releases/download/v1.1.0/DiroPrinter-1.1.0-macos.zip)**<br />`DiroPrinter-1.1.0-macos.zip` · ≈1,9 MB | **Giải nén** rồi kéo `Diro Printer.app` vào thư mục **Applications** |
 
-Số `1.0.0` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
+Số `1.1.0` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-printer/releases).
 
 :::note Cách giải nén
@@ -86,6 +86,8 @@ Phần mềm chia file thành hai nhóm:
 Mỗi nhóm có ba mục, kèm số file trong ngoặc: **Chưa in**, **Đang in** và
 **Đã in**. File được xếp theo ngày, mới nhất ở trên: *Hôm nay*, *Hôm qua*,
 *Ngày 6/11/2026*.
+
+Mỗi file tem có nhãn số đơn, ví dụ **99 đơn**, ngay trên dòng của file.
 
 :::info Lần đầu mở phần mềm
 Mọi file PDF đang có sẵn trên máy sẽ được xếp vào **Đã in**, để danh sách không
@@ -157,7 +159,8 @@ Tuỳ chọn hiện ra theo từng loại file:
 | **PDF từ Diro** | Không có tuỳ chọn, luôn in vừa trang | Chỉ có **Khoảng trang** |
 | **PDF khác** | **Số bản**, **Khoảng trang**, **Cơ chế in** | **Số bản**, **Khoảng trang**, **Cơ chế in** |
 
-**Khoảng trang** để trống là in tất cả. Có thể gõ `5`, `2-5`, hoặc `1,3,5-7`.
+**Khoảng trang** để trống là in tất cả. Có thể gõ `5`, `2-5`, hoặc `1,3,5-7`. Rê
+chuột vào biểu tượng ⓘ cạnh ô để xem giải thích ngay trong phần mềm.
 
 **In lại** chỉ đặt lại những trang bạn chọn. Các trang khác giữ nguyên trạng
 thái đã in.
@@ -186,6 +189,23 @@ khoá. Muốn in từ Google Slides, hãy tải bản PDF về rồi in trong m�
 
 Người có quyền quản trị máy vẫn có thể tắt khoá hoặc cắm máy in sang máy khác.
 Khoá giúp tránh in nhầm, chứ không ngăn được người cố tình.
+:::
+
+---
+
+## 📋 Gửi nhật ký cho Diro khi in gặp sự cố
+
+Phần mềm ghi lại mọi lần in trên máy bạn: in file nào, vào máy in nào, từng trang
+xong hay lỗi, và nguyên văn lỗi của máy in. Nhật ký được giữ 90 ngày.
+
+🔹 Bấm **Cài đặt** ở góc trên bên phải
+🔹 Trong mục **Nhật ký**, bấm **Xuất nhật ký**
+🔹 Phần mềm tạo file `DiroPrinter-nhatky-….zip` ở **Desktop** và mở sẵn thư mục
+🔹 Gửi file đó cho đội Diro qua Zalo 0333 263 400
+
+:::note Trong file nhật ký có gì
+Có tên file, đường dẫn trên máy, mã vận đơn và trạng thái in của từng trang. Không
+có bản sao file PDF, nên không có tên, số điện thoại hay địa chỉ người nhận.
 :::
 
 ---
