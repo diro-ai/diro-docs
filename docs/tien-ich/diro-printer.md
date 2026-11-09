@@ -34,6 +34,12 @@ bấm **In**. Phần mềm không cần đăng nhập.
 Số `1.2.0` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-printer/releases).
 
+:::tip Link chính báo lỗi hoặc tải không được?
+Hãy tải từ link dự phòng của Diro:
+**[⬇️ Windows (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.2.0/DiroPrinter-1.2.0-win-x64.zip)** ·
+**[⬇️ macOS (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.2.0/DiroPrinter-1.2.0-macos.zip)**
+:::
+
 :::note Cách giải nén
 **Windows**: bấm chuột phải vào file `.zip` → **Extract All…** → **Extract**.
 Nhớ giải nén ra rồi mới chạy, chạy thẳng từ trong file nén sẽ lỗi.
