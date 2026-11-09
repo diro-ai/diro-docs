@@ -170,6 +170,8 @@ Nhãn chỉ tính những lần in trên chính máy đó. Hai máy khác nhau k
 
 Trên Diro, vào **Thiết lập → Mẫu in & thiết lập Diro Printer**, tab **Thiết lập Diro Printer**, bật **In đơn (file PDF) thông qua Diro Printer**.
 
+Thiết lập này áp dụng cho **toàn bộ tài khoản** của bạn, gồm mọi trang và cửa hàng. Nhân viên và tài khoản đã liên kết theo thiết lập của chủ tài khoản.
+
 Từ lúc đó, đơn đã xuất PDF sẽ ở trạng thái **Chờ in**. In xong tờ tem vận đơn bằng Diro Printer, đơn tự chuyển sang **Đã in**. Máy mất mạng vẫn in bình thường, có mạng lại phần mềm tự báo tiếp.
 
 :::warning Cài Diro Printer 1.2.0 trước khi bật
