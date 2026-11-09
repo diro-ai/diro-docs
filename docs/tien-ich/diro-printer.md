@@ -28,16 +28,16 @@ bấm **In**. Phần mềm không cần đăng nhập.
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-printer/releases/download/v1.3.2/DiroPrinter-1.3.2-win-x64.zip)**<br />`DiroPrinter-1.3.2-win-x64.zip` · ≈64 MB | **Giải nén** rồi bấm đúp `DiroPrinter.exe`, **không cần cài đặt** |
-| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-printer/releases/download/v1.3.2/DiroPrinter-1.3.2-macos.zip)**<br />`DiroPrinter-1.3.2-macos.zip` · ≈2,2 MB | **Giải nén** rồi kéo `Diro Printer.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-printer/releases/download/v1.4.0/DiroPrinter-1.4.0-win-x64.zip)**<br />`DiroPrinter-1.4.0-win-x64.zip` · ≈69 MB | **Giải nén** rồi bấm đúp `DiroPrinter.exe`, **không cần cài đặt** |
+| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-printer/releases/download/v1.4.0/DiroPrinter-1.4.0-macos.zip)**<br />`DiroPrinter-1.4.0-macos.zip` · ≈2,2 MB | **Giải nén** rồi kéo `Diro Printer.app` vào thư mục **Applications** |
 
-Số `1.3.2` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
+Số `1.4.0` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-printer/releases).
 
 :::tip Link chính báo lỗi hoặc tải không được?
 Hãy tải từ link dự phòng của Diro:
-**[⬇️ Windows (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.3.2/DiroPrinter-1.3.2-win-x64.zip)** ·
-**[⬇️ macOS (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.3.2/DiroPrinter-1.3.2-macos.zip)**
+**[⬇️ Windows (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.4.0/DiroPrinter-1.4.0-win-x64.zip)** ·
+**[⬇️ macOS (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.4.0/DiroPrinter-1.4.0-macos.zip)**
 :::
 
 :::note Cách giải nén
@@ -256,9 +256,12 @@ có bản sao file PDF, nên không có tên, số điện thoại hay địa ch
 
 ## ⬆️ Nâng cấp phần mềm
 
-Từ bản 1.2.0, khi có phiên bản mới phần mềm sẽ hỏi **Bỏ qua** hay **Nâng cấp**. Bấm **Nâng cấp** là phần mềm tự tải, tự thay bản mới rồi mở lại, lịch sử in vẫn giữ nguyên. Bấm **Bỏ qua** thì lần mở sau sẽ hỏi lại.
+Từ bản 1.4.0, phần mềm **không tự cập nhật**. Khi muốn lên bản mới, bạn làm thủ công:
 
-Đang in thì chưa nâng cấp được, hãy chờ in xong. Trên Windows, nếu báo không ghi được vào thư mục, hãy chuyển `DiroPrinter.exe` ra Desktop rồi thử lại.
+1. Chờ in xong rồi tắt Diro Printer.
+2. Tải bản mới ở [mục tải về](#-bước-1-tải-phần-mềm-về-máy) phía trên và giải nén.
+3. **Windows:** chép `DiroPrinter.exe` mới đè lên file cũ. **macOS:** kéo `Diro Printer.app` mới vào **Applications** và chọn thay thế.
+4. Mở lại phần mềm. Lịch sử in vẫn giữ nguyên.
 
 ---
 
@@ -273,7 +276,7 @@ thêm quyền thư mục ở phần trên.
 Bản Windows chỉ đọc danh sách máy in lúc mở phần mềm, hãy tắt phần mềm rồi mở lại.
 
 **Máy in ra tờ tem trắng**
-Bấm **Báo tờ trắng** ngay khi thấy, phần mềm sẽ ghi lại thời điểm và trang đó. Sau đó [xuất nhật ký](#-gửi-nhật-ký-cho-diro-khi-in-gặp-sự-cố) gửi cho đội Diro. Thường gặp do cảm biến khe hở của máy in, hãy thử hiệu chỉnh (calibrate) và lau cảm biến.
+Trên macOS, bấm **Báo tờ trắng** ngay khi thấy, phần mềm sẽ ghi lại thời điểm và trang đó. Bản Windows không có nút này, bạn hãy ghi lại số trang bị trắng. Sau đó [xuất nhật ký](#-gửi-nhật-ký-cho-diro-khi-in-gặp-sự-cố) gửi cho đội Diro. Thường gặp do cảm biến khe hở của máy in, hãy thử hiệu chỉnh (calibrate) và lau cảm biến.
 
 **Tem bị lệch hoặc sai khổ**
 Kiểm tra khổ giấy trong phần cài đặt máy in của Windows hoặc macOS. Với PDF khác,
