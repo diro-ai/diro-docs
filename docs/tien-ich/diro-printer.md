@@ -28,10 +28,10 @@ bấm **In**. Phần mềm không cần đăng nhập.
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-printer/releases/download/v1.1.0/DiroPrinter-1.1.0-win-x64.zip)**<br />`DiroPrinter-1.1.0-win-x64.zip` · ≈64 MB | **Giải nén** rồi bấm đúp `DiroPrinter.exe`, **không cần cài đặt** |
-| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-printer/releases/download/v1.1.0/DiroPrinter-1.1.0-macos.zip)**<br />`DiroPrinter-1.1.0-macos.zip` · ≈1,9 MB | **Giải nén** rồi kéo `Diro Printer.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-printer/releases/download/v1.2.0/DiroPrinter-1.2.0-win-x64.zip)**<br />`DiroPrinter-1.2.0-win-x64.zip` · ≈64 MB | **Giải nén** rồi bấm đúp `DiroPrinter.exe`, **không cần cài đặt** |
+| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-printer/releases/download/v1.2.0/DiroPrinter-1.2.0-macos.zip)**<br />`DiroPrinter-1.2.0-macos.zip` · ≈2,2 MB | **Giải nén** rồi kéo `Diro Printer.app` vào thư mục **Applications** |
 
-Số `1.1.0` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
+Số `1.2.0` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-printer/releases).
 
 :::note Cách giải nén
@@ -148,6 +148,36 @@ nằm trong **PDF từ Diro** nhờ tên file, nhưng không so trùng được.
 
 ---
 
+## 📊 Nhãn in trùng trong 24 giờ
+
+Bên phải hàng **Chưa in**, **Đang in**, **Đã in** có một nhãn cho biết máy này đã in trùng tem nào trong 24 giờ qua:
+
+| Nhãn | Ý nghĩa |
+|---|---|
+| **Tốt** (xanh) | Không có tem đơn nào in bị trùng |
+| **Có X đơn in bị trùng** (vàng) | Từ 1 đến 4 đơn có tem được in từ 2 lần trở lên |
+| **Có X đơn in bị trùng** (đỏ) | Từ 5 đơn trở lên |
+
+Rê chuột vào nhãn để xem mã vận đơn và số lần in. In lại có chủ đích cũng được tính.
+
+:::note Mỗi máy đếm riêng
+Nhãn chỉ tính những lần in trên chính máy đó. Hai máy khác nhau không thấy số của nhau.
+:::
+
+---
+
+## ✅ Đơn tự chuyển sang Đã in
+
+Trên Diro, vào **Thiết lập → Mẫu in & thiết lập Diro Printer**, tab **Thiết lập Diro Printer**, bật **In đơn (file PDF) thông qua Diro Printer**.
+
+Từ lúc đó, đơn đã xuất PDF sẽ ở trạng thái **Chờ in**. In xong tờ tem vận đơn bằng Diro Printer, đơn tự chuyển sang **Đã in**. Máy mất mạng vẫn in bình thường, có mạng lại phần mềm tự báo tiếp.
+
+:::warning Cài Diro Printer 1.2.0 trước khi bật
+Bản cũ hơn không báo trạng thái về Diro. Đơn in bằng phần mềm khác sẽ ở Chờ in cho tới khi hãng vận chuyển lấy hàng.
+:::
+
+---
+
 ## 🔁 In tiếp và in lại
 
 ![Mục Đã in](printer-03-da-in.png)
@@ -210,6 +240,14 @@ có bản sao file PDF, nên không có tên, số điện thoại hay địa ch
 
 ---
 
+## ⬆️ Nâng cấp phần mềm
+
+Từ bản 1.2.0, khi có phiên bản mới phần mềm sẽ hỏi **Bỏ qua** hay **Nâng cấp**. Bấm **Nâng cấp** là phần mềm tự tải, tự thay bản mới rồi mở lại, lịch sử in vẫn giữ nguyên. Bấm **Bỏ qua** thì lần mở sau sẽ hỏi lại.
+
+Đang in thì chưa nâng cấp được, hãy chờ in xong. Trên Windows, nếu báo không ghi được vào thư mục, hãy chuyển `DiroPrinter.exe` ra Desktop rồi thử lại.
+
+---
+
 ## ❓ Gặp trục trặc
 
 **Không thấy file vừa xuất từ Diro**
@@ -219,6 +257,9 @@ thêm quyền thư mục ở phần trên.
 
 **Không thấy máy in vừa cắm**
 Bản Windows chỉ đọc danh sách máy in lúc mở phần mềm, hãy tắt phần mềm rồi mở lại.
+
+**Máy in ra tờ tem trắng**
+Bấm **Báo tờ trắng** ngay khi thấy, phần mềm sẽ ghi lại thời điểm và trang đó. Sau đó [xuất nhật ký](#-gửi-nhật-ký-cho-diro-khi-in-gặp-sự-cố) gửi cho đội Diro. Thường gặp do cảm biến khe hở của máy in, hãy thử hiệu chỉnh (calibrate) và lau cảm biến.
 
 **Tem bị lệch hoặc sai khổ**
 Kiểm tra khổ giấy trong phần cài đặt máy in của Windows hoặc macOS. Với PDF khác,
