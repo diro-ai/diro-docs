@@ -28,16 +28,16 @@ bấm **In**. Phần mềm không cần đăng nhập.
 
 | Máy của bạn | Bấm để tải | Sau khi tải xong |
 |---|---|---|
-| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-printer/releases/download/v1.4.3/DiroPrinter-1.4.3-win-x64.zip)**<br />`DiroPrinter-1.4.3-win-x64.zip` · ≈69 MB | **Giải nén** rồi bấm đúp `DiroPrinter.exe`, **không cần cài đặt** |
-| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-printer/releases/download/v1.4.3/DiroPrinter-1.4.3-macos.zip)**<br />`DiroPrinter-1.4.3-macos.zip` · ≈2,2 MB | **Giải nén** rồi kéo `Diro Printer.app` vào thư mục **Applications** |
+| **Windows 10 / 11** | **[⬇️ TẢI CHO WINDOWS](https://github.com/nhatduy129/diro-printer/releases/download/v1.4.4/DiroPrinter-1.4.4-win-x64.zip)**<br />`DiroPrinter-1.4.4-win-x64.zip` · ≈69 MB | **Giải nén** rồi bấm đúp `DiroPrinter.exe`, **không cần cài đặt** |
+| **macOS 14 trở lên**<br />(cả Apple Silicon và Intel) | **[⬇️ TẢI CHO macOS](https://github.com/nhatduy129/diro-printer/releases/download/v1.4.4/DiroPrinter-1.4.4-macos.zip)**<br />`DiroPrinter-1.4.4-macos.zip` · ≈2,2 MB | **Giải nén** rồi kéo `Diro Printer.app` vào thư mục **Applications** |
 
-Số `1.4.3` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
+Số `1.4.4` trong tên file là **phiên bản**. Xem các bản phát hành khác tại
 [trang Releases](https://github.com/nhatduy129/diro-printer/releases).
 
 :::tip Link chính báo lỗi hoặc tải không được?
 Hãy tải từ link dự phòng của Diro:
-**[⬇️ Windows (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.4.3/DiroPrinter-1.4.3-win-x64.zip)** ·
-**[⬇️ macOS (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.4.3/DiroPrinter-1.4.3-macos.zip)**
+**[⬇️ Windows (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.4.4/DiroPrinter-1.4.4-win-x64.zip)** ·
+**[⬇️ macOS (dự phòng)](https://diro.sgp1.digitaloceanspaces.com/public-downloads/diro-printer/v1.4.4/DiroPrinter-1.4.4-macos.zip)**
 :::
 
 :::note Cách giải nén
