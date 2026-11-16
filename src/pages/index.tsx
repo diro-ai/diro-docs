@@ -1,45 +1,18 @@
 import type { ReactNode } from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import Head from '@docusaurus/Head';
+import { Redirect } from '@docusaurus/router';
 
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header
-      className={clsx('hero hero--primary bg-background', styles.heroBanner)}
-    >
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Tài liệu hướng dẫn
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
+// Không có trang chủ riêng: vào docs.diro.ai là thẳng tới tài liệu (có menu trái).
+// meta refresh cho lần tải trang đầu (HTML tĩnh), <Redirect> cho điều hướng trong app
+// (bấm logo, breadcrumb trang chủ).
 export default function Home(): ReactNode {
-  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout description={siteConfig.tagline}>
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+    <>
+      <Head>
+        <meta httpEquiv="refresh" content="0; url=/docs/intro" />
+        <link rel="canonical" href="https://docs.diro.ai/docs/intro" />
+      </Head>
+      <Redirect to="/docs/intro" />
+    </>
   );
 }
