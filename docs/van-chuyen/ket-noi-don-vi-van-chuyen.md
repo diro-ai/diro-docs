@@ -90,17 +90,42 @@ Diro **không kiểm tra** token dán tay. Dán sai token thì vẫn kết nối
 
 ## Giao Hàng Nhanh (GHN)
 
-GHN cũng có hai cách:
+GHN có hai cách kết nối. Diro **khuyến nghị kết nối Qua OTP**.
 
-![Khung kết nối Giao Hàng Nhanh](./img/ket-noi-7-ghn.jpg)
+### Qua OTP (khuyến nghị) {#qua-otp}
 
-1. **Nhập thủ công**: nhập Token và Mã Shop.
-2. **Qua OTP**: nhập số điện thoại chủ shop GHN, bấm **Nhận mã OTP**, rồi nhập **Mã OTP** và
-   **Mã Shop GHN** và bấm **Kết nối**.
-3. **Token GHN** (cách nhập thủ công).
-4. **Mã Shop (Shop ID)** (cách nhập thủ công).
+![Kết nối GHN qua OTP](./img/ket-noi-7-ghn.png)
+
+1. Tab **Qua OTP (khuyến nghị)** đang được chọn sẵn.
+2. **Số điện thoại** chủ shop GHN.
+3. **Mã Shop GHN**.
+4. Bấm **Gửi mã OTP**. GHN gửi mã qua SMS tới số điện thoại ở bước 2. Muốn gửi lại thì chờ
+   hết 60 giây.
+5. Nhập **Mã OTP** vừa nhận.
+6. Bấm **Kết nối**. Nút này chỉ bấm được khi đã nhập đủ số điện thoại, Mã Shop và OTP.
+
+Kết nối Qua OTP thì GHN báo thay đổi trạng thái đơn về Diro **ngay lập tức**, bạn không cần
+cài đặt gì thêm. Kết nối này **không hết hạn**: bạn chỉ cần kết nối lại nếu tự gỡ Diro khỏi
+danh sách nhân viên trong tài khoản GHN.
+
+### Nhập thủ công (Token)
+
+![Kết nối GHN bằng Token](./img/ket-noi-8-ghn-token.png)
+
+1. Lưu ý về cập nhật trạng thái khi kết nối bằng Token (xem bên dưới).
+2. Link **Xem hướng dẫn cài Webhook**.
+3. **Token GHN**.
+4. **Mã Shop (Shop ID)**.
 
 Lấy Token và Mã Shop tại `khachhang.ghn.vn`, mục **Chủ cửa hàng**.
+
+:::caution Kết nối bằng Token cập nhật trạng thái chậm hơn
+Với Token, GHN không tự báo thay đổi trạng thái đơn về Diro. Diro tự kiểm tra lại khoảng
+**10 phút một lần**, nên trạng thái sẽ cập nhật chậm. Muốn cập nhật ngay, hãy
+[cài URL Webhook của Diro trong tài khoản GHN](./cai-webhook-ghn.md), hoặc chuyển sang
+kết nối Qua OTP. Nếu bạn tạo Token mới trên GHN, Token cũ hết hiệu lực và bạn phải nhập
+lại Token trên Diro.
+:::
 
 ## Sửa tên gợi nhớ hoặc xoá tài khoản đã kết nối
 
